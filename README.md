@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Total%20Learnings-1-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
+
 # 📝 TIL (Today I Learned)
 > "Daily consistency beats intensity."
 
