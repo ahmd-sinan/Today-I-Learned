@@ -1,6 +1,15 @@
-# 📝 TIL (Today I Learned)
-Daily log of things I learn as a Self-Taught Dev !!
+<div align="center">
+  
+  <img src="https://komarev.com/ghpvc/?username=your-username-Today-I-Learned&label=Profile%20Views&color=0e75b6&style=flat" alt="visitors" />
+  
+  <img src="https://img.shields.io/github/last-commit/your-username/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
 
+  <img src="https://img.shields.io/badge/Total%20Learnings-1-blue?style=flat" alt="Total Learnings" />
+
+</div>
+<br />
+
+# 📝 TIL (Today I Learned)
 > "Daily consistency beats intensity."
 
 Welcome to my **Today I Learned** repository! This is an open-source collection of concise write-ups on small things I learn day-to-day as my journey as a **Self-Taught Developer**.
