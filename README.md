@@ -1,8 +1,8 @@
 <div align="center">
   
-  <img src="https://komarev.com/ghpvc/?username=your-username-Today-I-Learned&label=Profile%20Views&color=0e75b6&style=flat" alt="visitors" />
+  <img src="https://komarev.com/ghpvc/?username=ahmd-sinan-Today-I-Learned&label=Profile%20Views&color=0e75b6&style=flat" alt="visitors" />
   
-  <img src="https://img.shields.io/github/last-commit/your-username/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
+  <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
 
   <img src="https://img.shields.io/badge/Total%20Learnings-1-blue?style=flat" alt="Total Learnings" />
 
