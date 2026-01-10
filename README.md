@@ -32,4 +32,4 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * *(More coming soon...)*
 
 ---
-*Maintained by [Your Name]*
+*Maintained by Ahamed Sinan*
