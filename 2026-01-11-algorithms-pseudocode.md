@@ -1,6 +1,6 @@
 # Algorithms & Pseudocode 🧩
 
-**Date:** 2026-01-11  
+**Date:** 11-Jan-2026  
 **Category:** CS Fundamentals  
 
 Problem-solving is central to programming. Today I learned about defining steps to solve problems (Algorithms) and planning code logic (Pseudocode).
