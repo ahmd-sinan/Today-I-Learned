@@ -1,6 +1,6 @@
 # Data Representation: ASCII, Unicode, and RGB 0️⃣1️⃣
 
-**Date:** 2026-01-11  
+**Date:** 11-Jan-2026  
 **Category:** CS Fundamentals  
 
 Today I explored how computers simply use zeros and ones (binary) to represent everything we see on a screen—from text and emojis to complex images and videos.
