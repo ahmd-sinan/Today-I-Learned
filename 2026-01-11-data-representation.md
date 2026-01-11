@@ -30,13 +30,13 @@ Using the ASCII chart, "HI!" is stored as three bytes:
 - **I:** 73
 - **!:** 33
 
-## 2. Unicode (The Universal Standard) 🌍
+## 2. Unicode (The Universal Standard)
 ASCII was limited (mostly English). The **Unicode** standard expanded the number of bits used, allowing us to represent:
 - Characters from almost all world languages.
 - Mathematical symbols.
 - **Emojis!** 😂 (even emojis are just patterns of 0s and 1s).
 
-## 3. RGB (Color Representation) 🎨
+## 3. RGB (Color Representation)
 Just like text, colors are represented by numbers. We use **RGB** (Red, Green, Blue).
 - Each color channel is usually 1 byte (8 bits), meaning values range from **0 to 255**.
 - A single pixel is a combination of these three numbers.
