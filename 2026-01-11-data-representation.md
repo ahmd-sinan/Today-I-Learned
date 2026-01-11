@@ -5,7 +5,7 @@
 
 Today I explored how computers simply use zeros and ones (binary) to represent everything we see on a screen—from text and emojis to complex images and videos.
 
-## 1. ASCII (Text Representation) 🔡
+## 1. ASCII (Text Representation)
 Computers map numbers to characters using standards like ASCII (American Standard Code for Information Interchange).
 
 - **Mapping:**
