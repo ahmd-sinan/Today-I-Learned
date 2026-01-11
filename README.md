@@ -37,6 +37,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 *(I will update this list manually with my best notes)*
 
 * [2026-01-10] **How Memory Works (Capacitors & Transistors)**
+* [2026-01-11] **Data Representation (ASCII, UNICODE, RGB, Music & Videos)**
 * *(More coming soon...)*
 
 ---
