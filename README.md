@@ -40,6 +40,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-01-11] **Data Representation (ASCII, UNICODE, RGB, Music & Videos)**
 * [2026-01-11] **Algorithms and Pseudocode**
 * [2026-01-11] **Linux Basics (Terminal, CLI, Linux Commands)**
+* [2026-01-12] **Compilation Process (Pre-process, Compile, Assembling, Linking)**
 * *(More coming soon...)*
 
 ---
