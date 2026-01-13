@@ -41,7 +41,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-01-11] **Algorithms and Pseudocode**
 * [2026-01-11] **Linux Basics (Terminal, CLI, Linux Commands)**
 * [2026-01-12] **Compilation Process (Pre-process, Compile, Assembling, Linking)**
-* [2026-01-13] **Command Line Arguments (Argc and Argv[])**
+* [2026-01-13] **Command Line Arguments (Argc and Argv[ ])**
 * *(More coming soon...)*
 
 ---
