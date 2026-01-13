@@ -22,7 +22,7 @@ If you run `./hello Bro`, argc is 2.
 It is an array of strings (technically an array of character pointers) containing the actual arguments.
 
 Indexing:
-argv[0]: The name of the program itself (e.g., "./hello").
-argv[1]: The first real input provided by the user (e.g., "David").
-argv[2]: The second input, and so on.
-argv[argc]: This is always a NULL pointer (identifying the end of the array).
+- argv[0]: The name of the program itself (e.g., "./hello").
+- argv[1]: The first real input provided by the user (e.g., "David").
+- argv[2]: The second input, and so on.
+- argv[argc]: This is always a NULL pointer (identifying the end of the array).
