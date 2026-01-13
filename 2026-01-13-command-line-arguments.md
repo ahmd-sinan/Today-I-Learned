@@ -9,6 +9,8 @@ Today I learned that the `main` function doesn't have to be empty (`void`). We c
 Instead of `int main(void)`, we write:
 ```c
 int main(int argc, char *argv[])
+```
+
 1. argc (Argument Count) 
 It is an integer representing the count of arguments passed to the program.
 Important: The count includes the program's own name!
