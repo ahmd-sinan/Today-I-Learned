@@ -1,6 +1,7 @@
 # Strings & The Null Character (`\0`) 
 
 **Date:** 2026-01-16
+
 Today I learned that "Strings" in C are technically just arrays of characters. But unlike a normal array of numbers, strings need a special way to mark their ending.
 
 ## 1. Strings are Arrays 
