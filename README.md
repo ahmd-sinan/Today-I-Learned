@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-7-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-8-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -43,6 +43,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-01-12] **Compilation Process (Pre-process, Compile, Assembling, Linking)**
 * [2026-01-13] **Command Line Arguments (argc and argv[ ])**
 * [2026-01-16] **Strings and Null Characters**
+* [2026-01-17] **Software Classifications & Humanware**
 * *(More coming soon...)*
 
 ---
