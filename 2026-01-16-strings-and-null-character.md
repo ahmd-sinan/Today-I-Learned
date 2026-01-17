@@ -1,6 +1,7 @@
 # Strings & The Null Character (`\0`) 
 
 **Date:** 2026-01-16
+
 Today I learned that "Strings" in C are technically just arrays of characters. But unlike a normal array of numbers, strings need a special way to mark their ending.
 
 ## 1. Strings are Arrays 
@@ -19,7 +20,7 @@ Since each `char` is 1 byte, this string takes up **4 bytes**, not 3!
 * **Purpose:** It acts as a "Stop Sign." It tells functions like `printf` where the string ends.
 
 ### Why is it important?
-Computers function on "dumb" logic. If you tell a computer "Print this string" but don't provide the `\0`, the computer will:
+Computers function on "dumb" logic. If we tell to a computer "Print this string" but don't provide the `\0`, the computer will:
 1. Print 'H'
 2. Print 'I'
 3. Print '!'
