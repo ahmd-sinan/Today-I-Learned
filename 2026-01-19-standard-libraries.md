@@ -1,6 +1,6 @@
 # Standard Library Functions: Beyond the Basics 
 
-**Date:** 2026-01-19
+**Date:** 19-Jan-2026
 
 I was already familiar with standard header files like `<stdio.h>`, `<stdlib.h>`, `<ctype.h>`, `<string.h>`, and etc. but today I learned specifically about the powerful utility functions hidden inside `<ctype.h>`, `<math.h>`, `<stdlib.h>`, and `<string.h>`.
 
