@@ -1,6 +1,6 @@
 # Time Complexity of Sorting Algorithms ⏳
 
-**Date:** 2026-01-20
+**Date:** 20-Jan-2026
 
 Today I learned that we don't measure algorithm speed in seconds (because that depends on hardware). Instead, we measure it in **steps** relative to the input size ($n$).
 
@@ -35,4 +35,4 @@ Today I learned that we don't measure algorithm speed in seconds (because that d
 * **Note:** $n \log n$ is significantly faster than $n^2$ for large datasets!
 
 ---
-**Key Takeaway:** **Merge Sort** is generally superior for large lists because $n \log n$ grows much slower than $n^2$, but **Bubble Sort** has a unique advantage if the data is already mostly sorted.
+**Merge Sort** is generally superior for large lists because $n \log n$ grows much slower than $n^2$, but **Bubble Sort** has a unique advantage if the data is already mostly sorted.
