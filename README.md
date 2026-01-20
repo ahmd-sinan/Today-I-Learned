@@ -33,7 +33,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 
 ---
 
-## 📅 Recent Learnings!
+## 📅 Recent Learnings
 *(I will update this list manually with my best notes)*
 
 * [2026-01-10] **How Memory Works (Capacitors & Transistors)**
