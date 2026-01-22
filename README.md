@@ -47,7 +47,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-01-17] **Procedure Oriented Programming VS Object Oriented Programming**-
 * [2026-01-19] **Standard Library Functions: Beyond the Basics**
 * [2026-01-20] **Time Complexity of Sorting Algorithms**
-* [2026-01-22 **Advanced Computing Paradigms (Distributed, Parallel, & Cloud)**
+* [2026-01-22] **Advanced Computing Paradigms (Distributed, Parallel, & Cloud)**
 * *(More coming soon...)*
 
 ---
