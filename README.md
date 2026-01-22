@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-11-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-12-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -47,6 +47,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-01-17] **Procedure Oriented Programming VS Object Oriented Programming**-
 * [2026-01-19] **Standard Library Functions: Beyond the Basics**
 * [2026-01-20] **Time Complexity of Sorting Algorithms**
+* [2026-01-22] **Advanced Computing Paradigms (Distributed, Parallel, & Cloud)**
 * *(More coming soon...)*
 
 ---
