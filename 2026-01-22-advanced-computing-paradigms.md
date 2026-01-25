@@ -1,6 +1,6 @@
 # Advanced Computing Paradigms: Distributed, Parallel, & Cloud 
 
-**Date:** 2026-01-22
+**Date:** 22-Jan-2026
 
 Today I learned how computers work together to solve massive problems that a single machine can't handle. It is all about splitting the workload!
 
