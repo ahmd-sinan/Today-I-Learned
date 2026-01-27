@@ -1,8 +1,6 @@
 # Recursion: Functions Calling Themselves 
 
 **Date:** 2026-01-25
-**Category:** Algorithms & C Programming
-**Tags:** #Recursion #Algorithms #Stack #Factorial
 
 Today I learned about **Recursion**, a programming technique where a function calls *itself* to solve a problem. It breaks a large problem down into smaller, identical sub-problems.
 
@@ -21,7 +19,7 @@ Mathematically, $5! = 5 \times 4 \times 3 \times 2 \times 1$.
 * And $4! = 4 \times 3!$
 * ...until we hit $1!$ (which is 1).
 
-### Code Implementation (Standard C)
+### Code Implementation 
 ```c
 #include <stdio.h>
 
@@ -52,15 +50,15 @@ int factorial(int n)
 
 ### 3. Visualizing the Call Stack 
 When factorial(3) runs, it doesn't finish immediately. It pauses and adds a new "frame" to the memory stack.
-- 1. Start: factorial(3) calls...
-- 2. Pause: 3 * factorial(2) calls...
-- 3. Pause: 2 * factorial(1) calls...
-- 4. Base Case Hit: factorial(1) returns 1.
-- 5. Unwind: $2 \times 1 = 2$
-- 6. Unwind: $3 \times 2 = 6$ (Final Answer).
+- Start: factorial(3) calls...
+- Pause: 3 * factorial(2) calls...
+- Pause: 2 * factorial(1) calls...
+- Base Case Hit: factorial(1) returns 1.
+- Unwind: $2 \times 1 = 2$
+- Unwind: $3 \times 2 = 6$ (Final Answer).
 
 ### 4. Recursion vs. Iteration (Loops) ⚔️
-| **Feature** | **Recursion** 🌀 | **Iteration (While/For)** 🔁 |
+| **Feature** | **Recursion** | **Iteration (While/For)** |
 | :--- | :--- | :--- |
 | *Code Style* | Elegant, often fewer lines of code | Can be longer, but straightforward |
 | *Memory* | Uses more memory (Call Stack builds up) | Efficient (Uses constant memory) |
