@@ -1,6 +1,6 @@
 # Constants: `#define` vs. `const` 
 
-**Date:** 2026-01-27
+**Date:** 27-Jan-2026
 
 Today I learned that there are two ways to create "unchangeable" values in C, but they work very differently under the hood.
 
