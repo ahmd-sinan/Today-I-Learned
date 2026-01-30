@@ -29,7 +29,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * 🐧 **Linux:** Commands, File System, Permissions
 * 💻 **C Language:** Pointers, Memory Management, Algorithms
 * 🧠 **Computer Fundamentals:** Hardware, Binary, stc
-* 🌐 **Web Development:** Frontend
+* 🌐 **Web Development:** Frontend.
 
 ---
 
