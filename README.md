@@ -50,6 +50,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-01-22] **Advanced Computing Paradigms (Distributed, Parallel, & Cloud)**
 * [2026-01-25] **Recursion: Functions Calling Themselves**
 * [2026-01-27] **Constants (#define vs const)**
+* [2026-01-31] **ANSI Escape Codes: Coloring the Terminal**
 * *(More coming soon...)*
 
 ---
