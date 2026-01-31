@@ -4,8 +4,9 @@
 
 Today I learned how to control the terminal's text color and formatting using **ANSI Escape Codes**. These are special sequences of characters that the terminal interprets as commands rather than text to print.
 
-## 1. The Anatomy of a Code 🧬
+## 1. The Anatomy of a Code 
 In C or a Linux terminal, the escape code usually follows this structure: `\033[ (code) m`.
+- ANSI = American National Standards Institute
 
 * **`\033`**: The **Escape** character (represented in Octal).
 * **`[`**: The Control Sequence Introducer.
