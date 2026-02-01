@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-15-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-16-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -29,7 +29,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * 🐧 **Linux:** Commands, File System, Permissions
 * 💻 **C Language:** Pointers, Memory Management, Algorithms
 * 🧠 **Computer Fundamentals:** Hardware, Binary, stc
-* 🌐 **Web Development:** Frontend.
+* 🌐 **Web Development:** Frontend
 
 ---
 
