@@ -1,29 +1,27 @@
 # Strings: Arrays vs. Pointers (`char[]` vs `char*`) 
 
 **Date:** 2026-02-03
-**Category:** C Programming
-**Tags:** #CProgramming #Memory #Pointers #Arrays #Strings
 
-Today I learned that while strings in C are always sequences of characters ending in `\0`, how we declare them changes where they live in memory and whether we can change them.
+Today I learned that while strings in C are always sequences of characters ending in `\0`, how we declare them changes where they live in memory and whether we can change them
 
 ## The Array Method: `char a[]` 
 ```c
 char a[] = "Hi!";
 ```
 
-- **What happens**: The program creates a copy of the string "Hi!" and puts it inside a completely new array on the Stack.
-- Editable.
+- **What happens**: The program creates a copy of the string "Hi!" and puts it inside a completely new array on the Stack
+- Editable
 
-- I can change it: `a[0] = 'B';` works fine.
-- The string becomes "Bi!".
-- Memory: The variable a is the array itself.
+- I can change it: `a[0] = 'B';` works fine
+- The string becomes "Bi!"
+- Memory: The variable a is the array itself
 
 ## The Pointer Method: `char *p`
 ```c
 char *p = "Hi!";
 ```
 
-- **What happens**: The string literal "Hi!" is stored in a special "Read-Only Data" segment of memory. The pointer p simply stores the address of that string.
+- **What happens**: The string literal "Hi!" is stored in a special "Read-Only Data" segment of memory. The pointer p simply stores the address of that string
 - Read-Only (Immutable)
 
 - If I try `p[0] = 'B';`, the program will crash (Segmentation Fault)
