@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-15-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-16-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -51,6 +51,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-01-25] **Recursion: Functions Calling Themselves**
 * [2026-01-27] **Constants (#define vs const)**
 * [2026-01-31] **ANSI Escape Codes: Coloring the Terminal**
+* [2026-02-01] **Hexadecimal Color Codes**
 * *(More coming soon...)*
 
 ---
