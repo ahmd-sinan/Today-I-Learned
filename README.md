@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-16-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-17-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -16,14 +16,14 @@ Welcome to my **Today I Learned** repository! This is an open-source collection 
 ##  What is TIL?
 TIL is a repository where I document short notes, tips, and tricks that I learn daily. Instead of waiting to write full blog posts, I commit these small learnings here to:
 1.  **Track my progress** over time.
-2.  **Reinforce my memory** (writing helps remembering!).
-3.  **Share knowledge** with the open-source community.
+2.  **Reinforce my memory** (writing helps remembering!)
+3.  **Share knowledge** with the open-source community
 
 ## 👨‍💻 About Me
-I am a BCA student and Tech Enthusiast from **Kerala, India**. My passion lies in understanding how computers work "under the hood" and learn programming.
+I am a BCA student and Tech Enthusiast from **Kerala, India**. My passion lies in understanding how computers work "under the hood" and learn programming
 
 ## 📂 Repository Structure
-I keep a flat directory structure for simplicity. Files are named using the `YYYY-MM-DD-Topic.md` format to keep them chronologically sorted.
+I keep a flat directory structure for simplicity. Files are named using the `YYYY-MM-DD-Topic.md` format to keep them chronologically sorted
 
 ### Topics Covered:
 * 🐧 **Linux:** Commands, File System, Permissions
@@ -52,6 +52,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-01-27] **Constants (#define vs const)**
 * [2026-01-31] **ANSI Escape Codes: Coloring the Terminal**
 * [2026-02-01] **Hexadecimal Color Codes**
+* [2026-02-03] **Strings: Arrays and Pointers**
 * *(More coming soon...)*
 
 ---
