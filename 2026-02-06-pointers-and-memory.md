@@ -25,7 +25,7 @@ char *text = "Hello";
 - `char *`: Tells the computer, "Go to this address; you will find a character there"
 - **The Chain Reaction**: The computer prints the character at that address, then moves to the next address, and the next, until it hits the **Null Terminator**
 
-# The Null Terminator (`\0`)
+### The Null Terminator (`\0`)
 - `\0` (All bits zero) marks the end of the string.
 - If you overwrite the `\0`, the program will keep reading into garbage memory (buffer overflow)
 
