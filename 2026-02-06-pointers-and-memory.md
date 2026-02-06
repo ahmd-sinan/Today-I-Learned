@@ -33,9 +33,9 @@ char *text = "Hello";
 A pointer is just an address, but the type matters because it tells the computer "how big" the house at that address is
 | Syntax | Meaning | Step Size (Pointer Arithmetic) | 
 | :--- | :--- | :--- |
-| char * |Address of a Character | Moves 1 byte at a time |
-| int * | Address of an Integer | Moves 4 bytes at a time |
-| FILE * | Address of a File Stream | Moves by file structure size |
+| `char *` |Address of a Character | Moves 1 byte at a time |
+| `int *` | Address of an Integer | Moves 4 bytes at a time |
+| `FILE *` | Address of a File Stream | Moves by file structure size |
 
 
 You must match the pointer type to the variable type
