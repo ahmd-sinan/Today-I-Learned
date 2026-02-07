@@ -27,6 +27,10 @@ A standard WAV file consists of two distinct parts: the **Header** and the **Dat
 | **HEADER** | Sample 1 | Sample 2 | Sample 3 | ... |
 | (Metadata) | `int16_t` | `int16_t` | `int16_t` | ... |
 
+* **`uint8_t`**: An **unsigned 8-bit integer** that stores exactly 1 byte (values `0` to `255`), perfect for representing raw binary data like a file header
+* **`int16_t`**: A **signed 16-bit integer** (2 bytes) that stores positive and negative values (`-32,768` to `32,767`), used for audio samples because sound waves go up and down
+* Both are in `<stdint.h>`
+
 ## 2. The Logic: Changing Volume 
 Since audio is just numbers, changing volume is just **multiplication**.
 
