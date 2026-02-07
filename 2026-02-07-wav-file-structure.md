@@ -9,11 +9,12 @@ A standard WAV file consists of two distinct parts: the **Header** and the **Dat
 
 ### A. The Header (Metadata) 
 * **Size:** The first **44 bytes** of the file.
-* **Purpose:** It acts like an "ID Card" for the file. It tells the audio player:
-    * "I am a WAVE file."
-    * "Here is my file size."
-    * "Here is my sample rate (e.g., 44,100 Hz)."
-    * "Here is the size of my samples (e.g., 16-bit)."
+* **Purpose:** It acts like an "ID Card" for the file. It stores :
+    * It is a WAVE file
+    * It's file size
+    * It's sample rate (e.g., 44,100 Hz)
+    * It's size of each samples (e.g., 16-bit)
+    - If open a wav file, header tells these all to Audio Player.
 * **Important:** If we modify audio, we must **copy this header unchanged** to the new file so the player recognizes it.
 
 ### B. The Samples (The Sound) 
