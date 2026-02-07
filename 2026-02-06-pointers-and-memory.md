@@ -25,7 +25,7 @@ char *text = "Hello";
 - `char *`: Tells the computer, "Go to this address; you will find a character there"
 - **The Chain Reaction**: The computer prints the character at that address, then moves to the next address, and the next, until it hits the **Null Terminator**
 
-# The Null Terminator (`\0`)
+### The Null Terminator (`\0`)
 - `\0` (All bits zero) marks the end of the string.
 - If you overwrite the `\0`, the program will keep reading into garbage memory (buffer overflow)
 
@@ -33,9 +33,9 @@ char *text = "Hello";
 A pointer is just an address, but the type matters because it tells the computer "how big" the house at that address is
 | Syntax | Meaning | Step Size (Pointer Arithmetic) | 
 | :--- | :--- | :--- |
-| char * |Address of a Character | Moves 1 byte at a time |
-| int * | Address of an Integer | Moves 4 bytes at a time |
-| FILE * | Address of a File Stream | Moves by file structure size |
+| `char *` |Address of a Character | Moves 1 byte at a time |
+| `int *` | Address of an Integer | Moves 4 bytes at a time |
+| `FILE *` | Address of a File Stream | Moves by file structure size |
 
 
 You must match the pointer type to the variable type
