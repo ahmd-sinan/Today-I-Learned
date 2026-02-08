@@ -4,7 +4,7 @@
 
 Today I learned that Pointers provide a powerful alternative to passing data between functions. Instead of passing a copy of the data (Pass by Value), pointers allow me to pass the **actual variable itself** (Pass by Reference).
 
-## 1. The Memory Model 
+## The Memory Model 
 * **Storage vs. Memory:** Files live on the disk (HDD/SSD), but to use data, we must move it to **RAM**.
 * **The Big Array:** Memory is basically a huge array of 8-bit wide bytes.
 * **Addresses:** Just like an array index, every single byte in memory has a unique **address**.
