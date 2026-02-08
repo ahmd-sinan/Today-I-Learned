@@ -9,11 +9,12 @@ A standard WAV file consists of two distinct parts: the **Header** and the **Dat
 
 ### A. The Header (Metadata) 
 * **Size:** The first **44 bytes** of the file.
-* **Purpose:** It acts like an "ID Card" for the file. It tells the audio player:
-    * "I am a WAVE file."
-    * "Here is my file size."
-    * "Here is my sample rate (e.g., 44,100 Hz)."
-    * "Here is the size of my samples (e.g., 16-bit)."
+* **Purpose:** It acts like an "ID Card" for the file. It stores :
+    * It is a WAVE file
+    * It's file size
+    * It's sample rate (e.g., 44,100 Hz)
+    * It's size of each samples (e.g., 16-bit)
+    - If open a wav file, header tells these all to Audio Player.
 * **Important:** If we modify audio, we must **copy this header unchanged** to the new file so the player recognizes it.
 
 ### B. The Samples (The Sound) 
@@ -25,6 +26,10 @@ A standard WAV file consists of two distinct parts: the **Header** and the **Dat
 | :---: | :---: | :---: | :---: | :---: |
 | **HEADER** | Sample 1 | Sample 2 | Sample 3 | ... |
 | (Metadata) | `int16_t` | `int16_t` | `int16_t` | ... |
+
+* **`uint8_t`**: An **unsigned 8-bit integer** that stores exactly 1 byte (values `0` to `255`), perfect for representing raw binary data like a file header
+* **`int16_t`**: A **signed 16-bit integer** (2 bytes) that stores positive and negative values (`-32,768` to `32,767`), used for audio samples because sound waves go up and down
+* Both are in `<stdint.h>`
 
 ## 2. The Logic: Changing Volume 
 Since audio is just numbers, changing volume is just **multiplication**.
