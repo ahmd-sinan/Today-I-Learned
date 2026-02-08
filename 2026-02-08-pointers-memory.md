@@ -9,14 +9,14 @@ Today I learned that Pointers provide a powerful alternative to passing data bet
 * **The Big Array:** Memory is basically a huge array of 8-bit wide bytes.
 * **Addresses:** Just like an array index, every single byte in memory has a unique **address**.
 
-## 2. What is a Pointer? 📍
+## What is a Pointer? 
 A pointer is simply a data item where:
 1.  The **Value** is a memory address.
 2.  The **Type** describes the data located at that address.
 
 > "Pointers are just addresses."
 
-## 3. The Operators: `&` and `*` 
+## The Operators: `&` and `*` 
 
 ### A. The Address Extraction Operator (`&`)
 This operator retrieves the address of an existing variable.
@@ -27,7 +27,7 @@ This operator "goes to the reference." It accesses the data at that specific mem
 
 * **Analogy:** Having a neighbor's address isn't enough. You need to **go to** (`*`) the address to actually interact with them
 
-## 4. Code Example 
+## Code Example 
 ```c
 int k;
 k = 5;
@@ -36,3 +36,17 @@ int *pk;   // Declare a pointer to an integer
 pk = &k;   // 'pk' now stores the address of 'k'
 ```
 * **Visual:** `k` (value 5) is at one location. `pk` is at another location, but it points back to `k`
+
+## The NULL Pointer 
+- The simplest pointer is `NULL`, which points to nothing.
+- Always set a pointer to `NULL` if you don't have a value for it immediately.
+- You can check if a pointer is safe to use with if (`p == NULL`)
+
+## Arrays are Pointers in Disguise 
+- An array's name is actually just a pointer to its first element!
+- `&arr[0]` is the same as just `arr`
+
+## Syntax Trap 
+- The asterisk `*` is part of the type name and the variable name, which can be confusing.
+- Incorrect: `int* px, py, pz;` (Only `px` is a pointer; `py` and `pz` are just integers!).
+- Correct: `int* pa, *pb, *pc;` (Explicitly put `*` before every variable)
