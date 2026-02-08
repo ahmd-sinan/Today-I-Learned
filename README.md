@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-19-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-20-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -55,6 +55,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-02-03] **Strings: Arrays and Pointers**
 * [2026-02-06] **Truth About Pointers, Strings and Memory**
 * [2026-02-07] **Audio Processing: The Anatomy of a WAV File**
+* [2026-02-08] **Pointers & Memory Management**
 * *(More coming soon...)*
 
 ---
