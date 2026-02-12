@@ -1,4 +1,4 @@
-# Debugging Memory Leaks with Valgrind 🕵️
+# Debugging Memory Leaks with Valgrind 
 
 **Date:** 2026-02-12
 
@@ -31,7 +31,7 @@ Valgrind analyzes every byte of memory access.
 * Bad Output: "definitely lost: 40 bytes in 1 blocks." ❌
 This means I `malloc`'d 40 bytes but forgot to `free` them before the program ended
 
-## Helpful Flags 🚩
+## Helpful Flags 
 To see exactly which line of code caused the leak, we can add flags:
 
 ```Bash
