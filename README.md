@@ -56,6 +56,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-02-06] **Truth About Pointers, Strings and Memory**
 * [2026-02-07] **Audio Processing: The Anatomy of a WAV File**
 * [2026-02-08] **Pointers & Memory Management**
+* [2026-02-12] **Valgrind Tool and Memory Leak**
 * *(More coming soon...)*
 
 ---
