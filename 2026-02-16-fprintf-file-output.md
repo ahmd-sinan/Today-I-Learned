@@ -4,7 +4,7 @@
 
 Today I learned about **`fprintf()`** (File Print Formatted). It works almost exactly like `printf`, but instead of printing to the terminal, it writes the formatted text into a specific file.
 
-## Syntax ✍️
+## Syntax 
 ```c
 int fprintf(FILE *stream, const char *format, ...);
 ```
@@ -37,4 +37,7 @@ int main(void)
     fclose(file);
 }
 ```
-
+## The "Standard" Streams 
+I learned a fascinating detail:
+- `stdout` (Standard Output) is actually just a special file stream that represents the terminal screen.
+Therefore, `printf("Hi");` is logically equivalent to `fprintf(stdout, "Hi");`
