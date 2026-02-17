@@ -40,3 +40,8 @@ int main(void)
     fclose(file);
 }
 ```
+
+## The Return Value (Crucial!) 
+- `fscanf` returns the number of items successfully matched and assigned.
+- If it returns `EOF` (End Of File), it means there is no more data to read
+- This is why we use it in a while loop condition!
