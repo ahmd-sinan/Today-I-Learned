@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-22-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-23-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -58,6 +58,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-02-08] **Pointers & Memory Management**
 * [2026-02-12] **Valgrind Tool and Memory Leak**
 * [2026-02-16] **File I/O: Writing Data with fprintf()**
+* [2026-02-17] **File I/O: Reading Data with fscanf()**
 * *(More coming soon...)*
 
 ---
