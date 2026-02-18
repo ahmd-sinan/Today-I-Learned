@@ -59,6 +59,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-02-12] **Valgrind Tool and Memory Leak**
 * [2026-02-16] **File I/O: Writing Data with fprintf()**
 * [2026-02-17] **File I/O: Reading Data with fscanf()**
+* [2026-02-18] **Binary File I/O: Writing Raw Data with fwrite()**
 * *(More coming soon...)*
 
 ---
