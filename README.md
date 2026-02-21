@@ -11,13 +11,13 @@
 # 📝 TIL (Today I Learned)
 > "Daily consistency beats intensity."
 
-Welcome to my **Today I Learned** repository! This is an open-source collection of concise write-ups on small things I learn day-to-day as my journey as a **Self-Taught Developer**.
+Welcome to my **Today I Learned** repository! This is an open-source collection of concise write-ups on small things I learn day-to-day as my journey as a **Self-Taught Developer**
 
 ##  What is TIL?
 TIL is a repository where I document short notes, tips, and tricks that I learn daily. Instead of waiting to write full blog posts, I commit these small learnings here to:
 1.  **Track my progress** over time.
-2.  **Reinforce my memory** (writing helps remembering!)
-3.  **Share knowledge** with the open-source community
+2.  **Reinforce my memory** (writing helps remembering!).
+3.  **Share knowledge** with the open-source community.
 
 ## 👨‍💻 About Me
 I am a BCA student and Tech Enthusiast from **Kerala, India**. My passion lies in understanding how computers work "under the hood" and learn programming
