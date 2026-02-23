@@ -11,10 +11,10 @@ The syntax is identical to `fwrite()`, but the direction of data flow is reverse
 size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);
 ```
 
-- `ptr`: A pointer to the memory location where you want to store the read data (e.g., an empty array or struct).
-- `size`: The size in bytes of one element (sizeof(int), sizeof(char), etc.).
+- `ptr`: A pointer to the memory location where you want to store the read data (e.g., an empty array or `struct`)
+- `size`: The size in bytes of one element (`sizeof(int)`, `sizeof(char)`, etc.).
 - `nmemb`: The number of elements you want to read.
-- `stream`: The FILE * pointer we are reading from (must be opened in "rb" - read binary mode).
+- `stream`: The `FILE *` pointer we are reading from (must be opened in `"rb"` - read binary mode).
 
 ## Code Example: Loading an Array 
 Let's read the exact same array of 5 integers we saved in the last lesson!
@@ -51,12 +51,12 @@ int main(void)
 ```
 
 ## The Return Value 
-fread returns the number of items successfully read.
-If you ask it to read 5 items, and it returns 5, you are good!
-If it returns a number less than what you asked for, it means you either hit the End of File (EOF) or an error occurred.
+`fread` returns the number of items successfully read.
+- If you ask it to read 5 items, and it returns 5, you are good!
+- If it returns a number less than what you asked for, it means you either hit the End of File (EOF) or an error occurred.
 
 ### Why is this useful?
-Because we can use fread inside a while loop to read a file chunk by chunk until it's empty!
+Because we can use `fread` inside a `while` loop to read a file chunk by chunk until it's empty!
 
 ```C
 // Example: Reading a file 1 byte at a time until the end
