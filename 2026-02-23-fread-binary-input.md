@@ -2,7 +2,7 @@
 
 **Date:** 2026-02-23
 
-Today I learned about **`fread()`**. This is the exact opposite of `fwrite()`. Instead of translating text character by character (like `fscanf` does), `fread()` grabs massive blocks of raw binary data from a file and dumps it straight into a variable or array in memory.
+Today I learned about **`fread()`**. This is the exact opposite of `fwrite()`. Instead of translating text character by character (like `fscanf` does), `fread()` grabs massive blocks of raw binary data from a file and dumps it straight into a variable or array in memory. fread() is incredibly fast because it skips all data translation. It just lifts raw bytes off the disk and drops them directly into your program's RAM.
 
 ## The Syntax 
 The syntax is identical to `fwrite()`, but the direction of data flow is reversed. It asks: *"Where am I putting this data, how big is each chunk, how many chunks, and what file am I reading from?"*
@@ -16,7 +16,7 @@ size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);
 - `nmemb`: The number of elements you want to read.
 - `stream`: The FILE * pointer we are reading from (must be opened in "rb" - read binary mode).
 
-## Code Example: Loading an Array 📦
+## Code Example: Loading an Array 
 Let's read the exact same array of 5 integers we saved in the last lesson!
 
 ```C
@@ -50,7 +50,7 @@ int main(void)
 }
 ```
 
-## The Return Value (The Secret Weapon) ⚔️
+## The Return Value 
 fread returns the number of items successfully read.
 If you ask it to read 5 items, and it returns 5, you are good!
 If it returns a number less than what you asked for, it means you either hit the End of File (EOF) or an error occurred.
@@ -66,4 +66,3 @@ while (fread(&buffer, sizeof(uint8_t), 1, file) == 1)
     // Do something with the byte
 }
 ```
-fread() is incredibly fast because it skips all data translation. It just lifts raw bytes off the disk and drops them directly into your program's RAM.
