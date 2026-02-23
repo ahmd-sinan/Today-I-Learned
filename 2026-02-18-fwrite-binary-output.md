@@ -4,11 +4,11 @@
 
 Today I learned about **`fwrite()`**. While `fprintf` writes formatted *text* (like writing the number `100` as the characters `'1'`, `'0'`, `'0'`), `fwrite` takes a block of memory and dumps the exact raw bytes straight into a file. `fwrite()` is literally just a "copy-paste" from RAM to the Hard Drive. It is the most efficient way to save data exactly as the computer sees it.
 
-## 1. Text vs. Binary 🥊
+## Text vs. Binary 
 * **Text (`fprintf`)**: Human-readable. Good for logs and `.txt` files.
 * **Binary (`fwrite`)**: Machine-readable. Good for saving complex data (like audio files, images, or game save states). You open the file with `"wb"` (write binary) instead of just `"w"`.
 
-## 2. The Syntax 🧩
+## The Syntax 
 `fwrite` takes 4 arguments. It basically asks: *"Where is the data, how big is each piece, how many pieces, and where is it going?"*
 
 ```c
@@ -19,7 +19,7 @@ size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream);
 - `nmemb`: The number of elements you want to write
 - `stream`: The `FILE *` pointer where the data will be saved
 
-## Code Example: Saving an Array 📦
+## Code Example: Saving an Array 
 Instead of writing a loop to print every number, fwrite can save a whole array in one line!
 
 ```C
@@ -52,5 +52,5 @@ int main(void)
 - Efficiency: It takes up less disk space.
 - Structs: I can pass a pointer to a custom `struct` (like `Student`) and save all their data (name, age, marks) in one single disk operation!
 
-## The Return Value ⚠️
+## The Return Value 
 `fwrite` returns the number of items successfully written (not the number of bytes). If the return value is less than the `nmemb` argument you passed, it means an error occurred (like running out of disk space)
