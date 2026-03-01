@@ -26,10 +26,10 @@ I am a BCA student and Tech Enthusiast from **Kerala, India**. My passion lies i
 I keep a flat directory structure for simplicity. Files are named using the `YYYY-MM-DD-Topic.md` format to keep them chronologically sorted.
 
 ### Topics Covered:
-* 🐧 **Linux:** Commands, File System, Permissions
-* 💻 **C Language:** Pointers, Memory Management, Algorithms
-* 🧠 **Computer Fundamentals:** Hardware, Binary, stc
-* 🌐 **Web Development:** Frontend
+* 🐧 **Linux:** Commands, File System, Permissions.
+* 💻 **C Language:** Pointers, Memory Management, Algorithms.
+* 🧠 **Computer Fundamentals:** Hardware, Binary, stc.
+* 🌐 **Web Development:** Frontend.
 
 ---
 
