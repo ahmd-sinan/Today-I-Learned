@@ -23,13 +23,13 @@ TIL is a repository where I document short notes, tips, and tricks that I learn 
 I am a BCA student and Tech Enthusiast from **Kerala, India**. My passion lies in understanding how computers work "under the hood" and learn programming.
 
 ## 📂 Repository Structure
-I keep a flat directory structure for simplicity. Files are named using the `YYYY-MM-DD-Topic.md` format to keep them chronologically sorted
+I keep a flat directory structure for simplicity. Files are named using the `YYYY-MM-DD-Topic.md` format to keep them chronologically sorted.
 
 ### Topics Covered:
-* 🐧 **Linux:** Commands, File System, Permissions
-* 💻 **C Language:** Pointers, Memory Management, Algorithms
+* 🐧 **Linux:** Commands, File System, Permissions.
+* 💻 **C Language:** Pointers, Memory Management, Algorithms.
 * 🧠 **Computer Fundamentals:** Hardware, Binary, stc.
-* 🌐 **Web Development:** Frontend
+* 🌐 **Web Development:** Frontend.
 
 ---
 
