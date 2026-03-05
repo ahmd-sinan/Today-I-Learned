@@ -28,7 +28,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 ### Topics Covered:
 * 🐧 **Linux:** Commands, File System, Permissions.
 * 💻 **C Language:** Pointers, Memory Management, Algorithms.
-* 🧠 **Computer Fundamentals:** Hardware, Binary, stc
+* 🧠 **Computer Fundamentals:** Hardware, Binary, stc.
 * 🌐 **Web Development:** Frontend.
 
 ---
