@@ -73,7 +73,7 @@ Because the file pointer moves automatically, we can use a while loop to read ma
 
 #### The "Leftover" Problem:
 If a file has 10 students, reading in chunks of 3 looks like this:
-- Read 1: Gets 3     [1]2][3]
+- Read 1: Gets 3     [1][2][3]
 - Read 2: Gets 3     [4][5][6]
 - Read 3: Gets 3     [7][8][9]
 - Read 4: Gets 1     [10]     (Only 1 student left!)
