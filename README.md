@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-26-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-27-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -62,6 +62,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-02-18] **Binary File I/O: Writing Raw Data with fwrite()**
 * [2026-02-23] **Binary File I/O: Reading Raw Data with fread()**
 * [2026-03-05] **Practice: Chunk Reading & File Pointers with fread**
+* [2026-03-06] **Image Representation & Pixel Manipulation**
 * *(More coming soon...)*
 
 ---
