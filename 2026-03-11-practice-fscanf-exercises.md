@@ -7,7 +7,7 @@ Today I completed a massive 5-program practice session focusing on reading, filt
 ### 1. Basic Array Population 
 **Goal:** Read integers from `data.txt` and print them to the screen.
 
-** Input (`data.txt`):**
+**Input (`data.txt`):**
 ```text
 10 20 35 55 80
 ```
@@ -36,7 +36,7 @@ int main() {
 ```
 
 ### 2. Data Filtering (Evens Only) 
-Goal: Read from `input.txt`, filter out odd numbers, and write ONLY even numbers to `output.txt`
+**Goal:** Read from `input.txt`, filter out odd numbers, and write ONLY even numbers to `output.txt`
 
 **Input (`input.txt`):**
 ```text
@@ -87,7 +87,7 @@ int main() {
 ```
 
 ### 3. On-the-Fly Math (Sum & Average) 
-Goal: Read a file of numbers, count them, and calculate the running sum and average.
+**Goal:** Read a file of numbers, count them, and calculate the running sum and average.
 
 **Input (`data.txt`):**
 ```text
@@ -129,7 +129,7 @@ int main() {
 ```
 
 ### 4. Multi-Type Processing (Student Grades) 
-Goal: Read strings (name) and integers (marks), evaluate them, and write only passing students (>40) to a new file.
+**Goal:** Read strings (name) and integers (marks), evaluate them, and write only passing students (>40) to a new file.
 
 **Input (`students.txt`):**
 ```text
@@ -180,7 +180,7 @@ Eve 92
 ```
 
 ### 5. File Copying (The Whitespace Trap) 
-Goal: Copy text from `source.txt` to `copy.txt` word-by-word.
+**Goal:** Copy text from `source.txt` to `copy.txt` word-by-word.
 
 **Input (`source.txt`):**
 ```text
