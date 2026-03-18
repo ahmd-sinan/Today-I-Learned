@@ -53,4 +53,4 @@ While the array-based approach above works, it has a massive limitation: the cap
 ## The Next Step: Dynamic Structures 
 It would be much better if our stack or queue could be dynamic—able to grow and shrink exactly as items are added or removed.
 
-- To solve this, we have to abandon static arrays. Instead, we use Pointers and dynamic memory allocation (`malloc and free) to link individual pieces of data together only when we need them!
+- To solve this, we have to abandon static arrays. Instead, we use Pointers and dynamic memory allocation (`malloc` and `free`) to link individual pieces of data together only when we need them!
