@@ -66,6 +66,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-03-09] **Practice: Text Files with fprintf()**
 * [2026-03-11] **Practice: Data Pipelines with fscanf() & fprintf()**
 * [2026-03-13] **Digital Forensics: JPEG Signatures & Slack Space**
+* [2026-03-18] **Data Structures: Stacks & Queues**
 * *(More coming soon...)*
 
 ---
