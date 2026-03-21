@@ -1,6 +1,6 @@
 # Practice: Dynamic Memory Allocation (`malloc`) 
 
-**Date:** 2026-03-22
+**Date:** 2026-03-21
 
 Today I did a deep dive into `malloc()`. I moved away from fixed-size arrays and started requesting memory from the **Heap** dynamically while the program is running.
 
