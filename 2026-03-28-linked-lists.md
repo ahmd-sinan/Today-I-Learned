@@ -17,7 +17,7 @@ typedef struct node {
 } node;
 ```
 
-## 2. Big O Time Complexity ⏱
+## 2. Big O Time Complexity 
 Because the data isn't stored right next to each other in memory, we lose the ability to use array indexes (like `arr[5]`).
 - **Search / Access:** $O(n)$ - To find the 100th item, we MUST start at the 1st item and follow the pointers 100 times. We can't just jump there.
 - **Insertion (at beginning):** $O(1)$ - Extremely fast! We just create a new node and point it to the current first node.
@@ -79,5 +79,5 @@ int main() {
 
 ## 5. Extra Things I Learned 
 - **The Head Pointer:** The variable list isn't actually a node itself; it is just a pointer to the first node. If you lose the Head pointer, you lose the entire list in memory!
-- **Temporary Pointers:** When freeing memory or deleting a node, you MUST use a temporary pointer (`temp) to hold the address of the next node. If you `free(ptr)` first, you destroy the map to the rest of your data!
+- **Temporary Pointers:** When freeing memory or deleting a node, you MUST use a temporary pointer (`temp)` to hold the address of the next node. If you `free(ptr)` first, you destroy the map to the rest of your data!
 - **Singly vs. Doubly:** This is a "Singly" linked list (one-way street). A "Doubly" linked list has a `prev` pointer too, letting you go backwards!
