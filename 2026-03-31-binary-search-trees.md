@@ -73,5 +73,5 @@ bool search(node *tree, int number) {
 
 ## 5. Time Complexity
 Because we eliminate half of the remaining nodes with every single step, the time complexity for searching (and inserting) drops drastically compared to a linked list.
-**Search Time:** $O(\log n)$
-**Caveat:** This $O(\log n)$ speed only applies if the tree is "balanced" (meaning it looks like a nice pyramid). If we insert numbers perfectly in order (like `1, 2, 3, 4, 5`), it just turns into a lopsided linked list and degrades back to $O(n)$!
+- **Search Time:** $O(\log n)$
+- **Caveat:** This $O(\log n)$ speed only applies if the tree is "balanced" (meaning it looks like a nice pyramid). If we insert numbers perfectly in order (like `1, 2, 3, 4, 5`), it just turns into a lopsided linked list and degrades back to $O(n)$!
