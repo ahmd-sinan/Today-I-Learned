@@ -7,7 +7,7 @@ Today I learned about **Trees**, specifically **Binary Search Trees (BST)**. Thi
 
 ## 1. The Problem We Are Solving 
 * **Arrays** offer contiguous memory and allow for super-fast searching (Binary Search) because we can jump to the middle. But they are fixed in size and slow to insert new data.
-* **Linked Lists** are dynamic and allow for super-fast insertion. But they are incredibly slow to search ($O(n)$) because we have to check every single node one by one.
+* **Linked Lists** are dynamic and allow for super-fast insertion. But they are incredibly slow to search ( $O(n)$ ) because we have to check every single node one by one.
 
 **The Solution:** A Binary Search Tree. It uses pointers (like a linked list) to be perfectly dynamic, but it organizes the data in a sorted, branching way so we can cut our search time in half at every step (like an array)!
 
