@@ -1,4 +1,4 @@
-# Hash Tables: The Quest for $O(1)$ ⚡
+# Hash Tables
 
 **Date:** 2026-04-02
 
