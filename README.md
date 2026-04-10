@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-36-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-37-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -72,6 +72,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-03-28] **Linked Lists: Breaking Free from Arrays** - [CS50x]
 * [2026-03-31] **Binary Search Trees (BST)** - [CS50x]
 * [2026-04-02] **Hash Tables** - [CS50x]
+* [2026-04-05] **Tries: Trees of Arrays** - [CS50x]
 * *(More coming soon...)*
 
 ---
