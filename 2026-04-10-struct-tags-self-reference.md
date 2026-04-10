@@ -39,7 +39,7 @@ typedef struct person   // Tag created IMMEDIATELY
 
 Inside the body, you can already use `struct person *` to self-reference because the compiler already knows the tag exists.
 
-## 4. The Golden Rule of Struct Timing ⏱
+## 4. The Golden Rule of Struct Timing 
 | Name Type | Created When? |
 | :--- | :--- |
 | `struct person` (Tag) | Immediately, when the compiler first sees it. |
