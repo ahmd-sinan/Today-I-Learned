@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-37-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-38-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -15,9 +15,9 @@ Welcome to my **Today I Learned** repository! This is an open-source collection 
 
 ##  What is TIL?
 TIL is a repository where I document short notes, tips, and tricks that I learn daily. Instead of waiting to write full blog posts, I commit these small learnings here to:
-1.  **Track my progress** over time.
+1.  **Track my progress** over time
 2.  **Reinforce my memory** (writing helps remembering!)
-3.  **Share knowledge** with the open-source community
+3.  **Share knowledge** with the open-source community.
 
 ## 👨‍💻 About Me
 I am a BCA student and Tech Enthusiast from **Kerala, India**. My passion lies in understanding how computers work "under the hood" and learn programming.
@@ -27,7 +27,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 
 ### Topics Covered:
 * 🐧 **Linux:** Commands, File System, Permissions.
-* 💻 **C Language:** Pointers, Memory Management, Algorithms.
+* 💻 **C Language:** Pointers, Memory Management, Algorithms
 * 🧠 **Computer Fundamentals:** Hardware, Binary, stc.
 * 🌐 **Web Development:** Frontend.
 
@@ -73,6 +73,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-03-31] **Binary Search Trees (BST)** - [CS50x]
 * [2026-04-02] **Hash Tables** - [CS50x]
 * [2026-04-05] **Tries: Trees of Arrays** - [CS50x]
+* [2026-04-10] **Struct Tags & Self-Referencing** - [CS50x]
 * *(More coming soon...)*
 
 ---
