@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-40-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-41-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -75,7 +75,8 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-04-05] **Tries: Trees of Arrays** - [CS50x]
 * [2026-04-10] **Struct Tags & Self-Referencing** - [CS50x]
 * [2026-05-15] **Python Basics: Printing, Variables & Modules** - [CS50x]
-* [2026-05-17[ **Python Logic: Strings, Loops & The Pythonic Way** [CS50x]
+* [2026-05-17] **Python Logic: Strings, Loops & The Pythonic Way** [CS50x]
+* [2026-05-18] **Python: Functions, Exceptions & Dictionaries** [CS50x]
 * *(More coming soon...)*
 
 ---
