@@ -1,8 +1,6 @@
 # Linux Basics: The Backbone of the World 🐧
 
 **Date:** 2026-05-19
-**Category:** Operating Systems / Systems Architecture
-**Tags:** #Linux #OS #Kernel #Distributions #OpenSource
 
 Today I shifted gears from programming languages to Operating Systems. I learned about Linux, the undisputed heavyweight champion of the computing world. It doesn't care what hardware you have; it adapts to almost any architecture!
 
