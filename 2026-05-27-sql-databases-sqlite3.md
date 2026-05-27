@@ -75,7 +75,7 @@ sqlite> SELECT Age FROM sheet1;
 ...
 ```
 
-### B. `INSERT` INTO (Create)
+### B. `INSERT INTO` (Create)
 Used to add a brand new row to the table.
 ```SQL
 sqlite> INSERT INTO sheet1 (ID, Name, Age) VALUES (11, 'Abu', 19);
