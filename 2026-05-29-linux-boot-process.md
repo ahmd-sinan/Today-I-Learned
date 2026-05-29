@@ -1,8 +1,6 @@
-# The Linux Boot Process: From Hardware to GUI 🚀
+# The Linux Boot Process: From Hardware to GUI 
 
 **Date:** 2026-05-29
-**Category:** Operating Systems / Linux
-**Tags:** #Linux #BootProcess #Kernel #GRUB #Systemd
 
 Today I mapped out the exact chronological sequence of events that occurs the moment a Linux machine is powered on. It happens in 7 distinct stages!
 
