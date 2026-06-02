@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-48-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-49-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -84,6 +84,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-05-29] **Linux Boot Process** [LFS101]
 * [2026-05-30] **Linux Services: Mastering systemctl** [LFS101]
 * [2026-06-01] **SQL Architecture: Data Types & Constraints** [CS50x]
+* [2026-06-02] **SQL: Primary & Foreign Keys** [CS50x]
 * *(More coming soon...)*
 
 ---
