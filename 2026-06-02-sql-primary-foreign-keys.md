@@ -57,6 +57,7 @@ INSERT INTO orders (order_id, item_name, user_id) VALUES (103, 'Monitor', 2);
 
 ## 4. Visualizing the Relationship 
 Because of the Foreign Key, the database knows exactly who ordered what, without ever having to type the names "Abu" or "Rahul" into the `orders` table!
+
 **`users` Table:**
 | user_id (PRIMARY) | name |
 | :--- | :--- |
@@ -64,6 +65,7 @@ Because of the Foreign Key, the database knows exactly who ordered what, without
 | 2 | Rahul |
 
 **`orders` Table:**
+
 | order_id (PRIMARY) | item_name | user_id (FOREIGN) |
 | :--- | :--- | :--- |
 | 101 | Gaming Mouse1 | (Points to Abu) |
