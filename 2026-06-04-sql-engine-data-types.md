@@ -1,7 +1,9 @@
 # Database Data Types: SQLite vs. MySQL 
 
-**Date:** 2026-06-03
+**Date:** 2026-06-04
+
 **Category:** Databases / SQL
+
 **Tags:** #SQL #Databases #DataTypes #MySQL #SQLite
 
 Today's lesson highlights the stark contrast between how different database engines handle data types! 
