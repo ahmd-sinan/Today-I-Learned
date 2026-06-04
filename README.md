@@ -87,6 +87,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-06-02] **SQL: Primary & Foreign Keys** [CS50x]
 * [2026-06-03] **Database Data Types: SQLite vs. MySQL** [CS50x]
 * [2026-06-03] **SQL Strings: CHAR vs VARCHAR** [CS50x]
+* [2026-06-04] **SQL Architecture: Database Engines (MySQL vs. SQLite)**
 * *(More coming soon...)*
 
 ---

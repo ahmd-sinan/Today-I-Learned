@@ -7,7 +7,7 @@
 **Tags:** #SQL #Databases #MySQL #SQLite #Backend #Architecture
 
 
-Today I learned about **Database Engines** (sometimes called storage engines). This is the core software that a Database Management System (DBMS) uses to store, read, update, and delete data. It is the actual "brain" and "filing system" working behind the scenes of a SQL query.
+Today I learned about **Database Engines** (storage engines). This is the core software that a Database Management System (DBMS) uses to store, read, update, and delete data. It is the actual "brain" and "filing system" working behind the scenes of a SQL query.
 
 While there are many types of engines, the two below represent the biggest architectural divide in the SQL world: Client-Server databases and Embedded databases.
 
