@@ -1,6 +1,6 @@
 # SQL Strings: `CHAR` vs `VARCHAR` 
 
-**Date:** 2026-06-03
+**Date:** 2026-06-04
 **Category:** Databases / SQL
 **Tags:** #SQL #Databases #DataTypes #Strings #Performance
 
