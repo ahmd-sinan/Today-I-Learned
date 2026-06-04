@@ -17,10 +17,10 @@ While there are many types of engines, the two below represent the biggest archi
 In this model, the database runs as a completely separate background program (a server). When an application wants data, it sends a request over a network connection to that server, which processes it and sends the data back.
 
 ### Deep Dive: MySQL
-*   **How it works:** It is a heavy-duty, standalone server program designed to handle multiple users and applications connecting at the exact same time over a network.
+*   **How it works:** It is a heavy-duty, standalone server program designed to handle multiple users and applications connecting at the exact same time over a network
 *   **Concurrency:** It uses granular "row-level locking." This means if one user is updating a specific row of data, another user can simultaneously update a different row in the same table without waiting! 🚦
 *   **Security:** Extremely robust. You can create different accounts with passwords and fine-grained permissions for who can see or change specific data.
-*   **Best Use Cases:** Web applications, eCommerce sites, and content management systems. If your app needs to handle high traffic and many concurrent writers, you need a client-server engine. 💻
+*   **Best Use Cases:** Web applications, eCommerce sites, and content management systems. If your app needs to handle high traffic and many concurrent writers, you need a client-server engine. 
 
 ## 2. Embedded Database Engines 
 **Examples:** SQLite3, DuckDB
@@ -28,7 +28,7 @@ In this model, the database runs as a completely separate background program (a 
 In this model, there is no server process at all. The database is just a library of code (written in C) that gets bundled directly into the application itself.
 
 ### Deep Dive: SQLite3
-*   **How it works:** The app directly opens a normal file on the hard drive (e.g., `database.db`). The entire database—the schema, tables, indexes, and data—lives inside that single file. 📄
+*   **How it works:** The app directly opens a normal file on the hard drive (e.g., `database.db`). The entire database—the schema, tables, indexes, and data—lives inside that single file. 
 *   **Concurrency:** It usually locks the entire database file when writing. This means it is incredibly fast for reading data, but only one process can write data at a time.
 *   **Zero-Configuration:** There are no user accounts, passwords, or network ports to configure. You just point your code at the file and start working! 
 *   **Best Use Cases:** Mobile apps (Android and iOS use it heavily for local storage), desktop applications, embedded systems, and local testing. 📱
