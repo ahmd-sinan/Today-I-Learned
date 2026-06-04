@@ -1,11 +1,8 @@
-# SQL Architecture: Database Engines (MySQL vs. SQLite) 
+# Database Engines: MySQL vs. SQLite
 
 **Date:** 2026-06-04
-
 **Category:** Databases / Architecture
-
 **Tags:** #SQL #Databases #MySQL #SQLite #Backend #Architecture
-
 
 Today I learned about **Database Engines** (storage engines). This is the core software that a Database Management System (DBMS) uses to store, read, update, and delete data. It is the actual "brain" and "filing system" working behind the scenes of a SQL query.
 
