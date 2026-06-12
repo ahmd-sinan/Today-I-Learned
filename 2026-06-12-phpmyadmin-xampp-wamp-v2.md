@@ -1,6 +1,7 @@
 # The Web Dev Stack: phpMyAdmin, XAMPP & WAMP 
 
-**Date:** 2026-06-04
+**Date:** 2026-06-12
+
 **Category:** Databases / Web Development
 **Tags:** #MySQL #phpMyAdmin #XAMPP #WAMP #GUI #LocalServer
 
