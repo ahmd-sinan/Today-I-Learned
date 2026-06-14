@@ -27,12 +27,12 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 
 **Topics Covered:**
 
-*   🐧 **Linux:** Commands, File System, Permissions, Boot Process, Systemctl & Background Services.
+*   🐧 **Linux:** Commands, File System, Permissions, Boot Process, Systemctl & Background Services
 *   💻 **C Language:** Pointers, Memory Management, File I/O, Debugging.
 *   🏗️ **Data Structures:** Linked Lists, Hash Tables, Binary Search Trees, Tries, Stacks & Queues
 *   🐍 **Python:** Core Syntax, Functions, Dictionaries, Error Handling, CLI Tools.
 *   🗄️ **Databases & SQL:** Relational Design (RDBMS), SQLite vs MySQL, Queries, Python-SQL Integration, SQLi
-*   🧠 **Computer Fundamentals:** Hardware, Binary Representation, Memory Architecture, OOP vs POP.
+*   🧠 **Computer Fundamentals:** Hardware, Binary Representation, Memory Architecture, OOP vs POP
 *   🌐 **Web Development:** Frontend Basics.
 
 ---
