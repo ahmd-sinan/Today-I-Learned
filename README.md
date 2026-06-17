@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-55-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-56-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -17,7 +17,7 @@ Welcome to my **Today I Learned** repository! This is an open-source collection 
 TIL is a repository where I document short notes, tips, and tricks that I learn daily. Instead of waiting to write full blog posts, I commit these small learnings here to:
 1.  **Track my progress** over time
 2.  **Reinforce my memory** (writing helps remembering!)
-3.  **Share knowledge** with the open-source community.
+3.  **Share knowledge** with the open-source community
 
 ## 👨‍💻 About Me
 I am a BCA student and Tech Enthusiast from **Kerala, India**. My passion lies in understanding how computers work "under the hood" and learn programming.
@@ -25,11 +25,15 @@ I am a BCA student and Tech Enthusiast from **Kerala, India**. My passion lies i
 ## 📂 Repository Structure
 I keep a flat directory structure for simplicity. Files are named using the `YYYY-MM-DD-Topic.md` format to keep them chronologically sorted.
 
-### Topics Covered:
-* 🐧 **Linux:** Commands, File System, Permissions.
-* 💻 **C Language:** Pointers, Memory Management, Algorithms
-* 🧠 **Computer Fundamentals:** Hardware, Binary, stc.
-* 🌐 **Web Development:** Frontend.
+**Topics Covered:**
+
+*   🐧 **Linux:** Commands, File System, Permissions, Boot Process, Systemctl & Background Services.
+*   💻 **C Language:** Pointers, Memory Management, File I/O, Debugging.
+*   🏗️ **Data Structures:** Linked Lists, Hash Tables, Binary Search Trees, Tries, Stacks & Queues
+*   🐍 **Python:** Core Syntax, Functions, Dictionaries, Error Handling, CLI Tools.
+*   🗄️ **Databases & SQL:** Relational Design (RDBMS), SQLite vs MySQL, Queries, Python-SQL Integration, SQLi
+*   🧠 **Computer Fundamentals:** Hardware, Binary Representation, Memory Architecture, OOP vs POP
+*   🌐 **Web Development:** Frontend Basics.
 
 ---
 
@@ -83,6 +87,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-05-27] **SQL & SQLite3** [CS50x]
 * [2026-05-29] **Linux Boot Process** [LFS101]
 * [2026-05-30] **Linux Services: Mastering systemctl** [LFS101]
+* [2026-06-01] **Database Architecture: DBMS, Flat-File, & RDBMS** [CS50x]
 * [2026-06-01] **SQL Architecture: Data Types & Constraints** [CS50x]
 * [2026-06-02] **SQL: Primary & Foreign Keys** [CS50x]
 * [2026-06-04] **SQL Database Engines: MySQL vs. SQLite** [CS50x]
