@@ -31,6 +31,7 @@ A complete Distro usually includes:
 
 ## 4. The Major Linux Families 
 While there are thousands of distros, the commercial enterprise world is dominated by a few main players:
+
 ![Demo](assets/RHEL_logo.png)
 * **Red Hat Family:** Maintained by Red Hat. Includes Fedora, CentOS, and RHEL (Red Hat Enterprise Linux).
 
