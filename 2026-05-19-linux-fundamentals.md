@@ -31,8 +31,11 @@ A complete Distro usually includes:
 
 ## 4. The Major Linux Families 
 While there are thousands of distros, the commercial enterprise world is dominated by a few main players:
+![Demo](assets/RHEL_logo.png)
 * **Red Hat Family:** Maintained by Red Hat. Includes Fedora, CentOS, and RHEL (Red Hat Enterprise Linux).
+![Demo](assets/SUSE_logo.png)
 * **SUSE Family:** Maintained by SUSE. Includes SUSE, SLES, and openSUSE Leap.
+![Demo](assets/Debian_logo.png)
 * **Debian Family:** The most famous is Ubuntu, maintained by Canonical.
 
 ## 5. A Brief History of Domination 
