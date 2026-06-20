@@ -81,7 +81,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-05-15] **Python Basics: Printing, Variables & Modules** - [CS50x]
 * [2026-05-17] **Python Logic: Strings, Loops & The Pythonic Way** [CS50x]
 * [2026-05-18] **Python: Functions, Exceptions & Dictionaries** [CS50x]
-* [2026-05-19] **Linux: Basics and History** [LFS101]
+* [2026-05-19] **Linux: Basics, Distros and History** [LFS101]
 * [2026-05-21] **Python: sys and pip** [CS50x]
 * [2026-05-26] **Linux Virtual Consoles: Switching GUI and Text Terminals (TTYs)** [LFS101]
 * [2026-05-27] **SQL & SQLite3** [CS50x]
