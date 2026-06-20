@@ -32,14 +32,84 @@ A complete Distro usually includes:
 ## 4. The Major Linux Families 
 While there are thousands of distros, the commercial enterprise world is dominated by a few main players:
 
+![Demo](assets/Debian_logo.png)
+* **Debian Family:** Maintained by Canonical.
+    * Ubuntu
+    * Linux Mint
+    * Pop!_OS
+    * elementary OS
+    * Zorin OS
+    * MX Linux
+    * Kali Linux
+    * Parrot OS
+    * Devuan
+    * Peppermint OS
+    * antiX
+    * Bodhi Linux
+    * Deepin
+    * PureOS
+    * Raspberry Pi OS
+    * Lubuntu
+    * Kubuntu
+    * Xubuntu
+    * Ubuntu MATE
+    * Ubuntu Budgie
+    * KDE neon
+
 ![Demo](assets/RHEL_logo.png)
-* **Red Hat Family:** Maintained by Red Hat. Includes Fedora, CentOS, and RHEL (Red Hat Enterprise Linux).
+* **Red Hat Family:** Maintained by Red Hat.
+    * Red Hat Enterprise Linux (RHEL)
+    * Fedora
+    * CentOS Stream
+    * Rocky Linux
+    * AlmaLinux
+    * Oracle Linux
+    * EuroLinux
+    * Scientific Linux
+    * ClearOS
+    * Amazon Linux
 
 ![Demo](assets/SUSE%20_logo.png)
-* **SUSE Family:** Maintained by SUSE. Includes SUSE, SLES, and openSUSE Leap.
+* **SUSE Family:** Maintained by SUSE.
+    * SUSE Linux Enterprise (SLE)
+    * openSUSE Leap
+    * openSUSE Tumbleweed
+    * GeckoLinux
+    * Regata OS
+    * SUSE Liberty Linux
 
-![Demo](assets/Debian_logo.png)
-* **Debian Family:** The most famous is Ubuntu, maintained by Canonical.
+* **Other Major Linux Families:**
+* **Arch Family**
+    * Arch Linux
+    * Manjaro
+    * EndeavourOS
+    * Garuda Linux
+    * ArcoLinux
+    * CachyOS
+
+* **Gentoo Family**
+    * Gentoo
+    * Calculate Linux
+    * Redcore Linux
+    * Funtoo
+
+* **Slackware Family**
+    * Slackware
+    * Salix OS
+    * Zenwalk
+
+* **Independent**
+    * Alpine Linux
+    * NixOS
+    * Void Linux
+    * Solus
+    * Tiny Core Linux
+    * Puppy Linux
+    * Clear Linux
+    * KaOS
+    * Chimera Linux
+    * CRUX
+    * Bedrock Linux
 
 ## 5. A Brief History of Domination 
 * **1991:** Linus Torvalds created and announced the first version of Linux.
