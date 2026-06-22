@@ -46,3 +46,13 @@ CREATE TABLE users (
 - `gpa`: It is a decimal (`REAL`). Notice it doesn't have `NOT NULL`. This means if a user doesn't have a GPA yet, it's perfectly fine to leave this cell empty (NULL)!
 - `join_date`: Stored as a date format (`NUMERIC`).
 - `profile_picture`: Ready to accept the raw 0s and 1s of an uploaded image file (`BLOB`)
+
+## 4. MySQL / Standard SQL: The Granular Approach (Strict Typing)
+Unlike SQLite, engines like MySQL offer a massive grid of highly specific data types to optimize memory and performance. Here are the 20 distinct types shown in the standard SQL breakdown:
+
+*   **Integers:** `INT`, `SMALLINT`, `TINYINT`, `MEDIUMINT`, and `BIGINT`. 
+*   **Decimals:** `DECIMAL` and `FLOAT`.
+*   **Dates & Times:** `DATE`, `TIME`, `DATETIME`, and `TIMESTAMP`.
+*   **Strings & Text:** `CHAR`, `VARCHAR`, and `TEXT`.
+*   **Binary Data:** `BIT`, `BINARY`, and `BLOB`.
+*   **Specialized Types:** `ENUM`, `GEOMETRY`, and `LINESTRING`.
