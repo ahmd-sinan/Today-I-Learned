@@ -1,4 +1,4 @@
-# SQL & SQLite3: Mastering Databases 
+# SQLite3 & SQL Fundamentals: Terminal Commands & CRUD Operations
 
 **Date:** 2026-05-27
 
@@ -9,7 +9,18 @@ SQLite3 is a lightweight, file-based database engine that runs directly in the t
 * A **Database (`.db`)** is the main file (like an Excel workbook).
 * A **Table** (often thought of as a "sheet") is a grid of rows and columns inside the database.
 
-### The Setup: Importing a CSV
+## 2. SQLite's Special `.dot` Commands 
+Unlike standard SQL commands (which manipulate data and *always* end with a semicolon `;`), SQLite has its own built-in terminal utility commands. They all start with a period (`.`) and control the database environment itself!
+
+*   `.tables` : Lists all the tables (sheets) currently inside your database.
+*   `.schema [table_name]` : Shows you the exact blueprint (the `CREATE TABLE` code) used to build that table. Great for checking what data types a table expects!
+*   `.mode [type]` : Changes how the output looks on your screen. Common types are `csv`, `column`, `list`, or the best visual one: `box`.
+*   `.headers on` : Turns on the column headers at the top of your output (crucial so you know what data you are looking at).
+*   `.import [filename] [table_name]` : Instantly reads a CSV or text file and converts it into a database table.
+*   `.dump` : Prints out the entire database as a giant list of SQL commands (perfect for creating backups).
+*   `.quit` (or `.exit`) : Safely closes the database connection and returns you to the normal terminal.
+
+## 3. The Setup: Importing a CSV
 Imagine I have a basic text file called `people.csv` with 10 rows:
 ```csv
 ID,Name,Age
@@ -25,8 +36,7 @@ ID,Name,Age
 10,Vikram,22
 ```
 
-### The Terminal Commands (`.dot` commands)
-To get this into a database, I use SQLite's special `.dot` commands in the terminal:
+Here is how I use those .dot commands to import and view it:
 ```bash
 # 1. Create/Open a database file
 $ sqlite3 students.db
@@ -61,8 +71,8 @@ sqlite> SELECT * FROM sheet1;
 sqlite> .quit
 ```
 
-## 2. The Core SQL Keywords (CRUD) 
-SQL revolves around four main operations: Create, Read, Update, Delete. (Note: SQL commands always end with a semicolon `;`)
+## 4. The Core SQL Keywords (CRUD) 
+SQL revolves around four main operations called CRUD: Create, Read, Update, Delete. (Note: SQL commands always end with a semicolon `;`)
 
 ### A. `SELECT` (Read)
 Used to fetch specific data from a table.
@@ -93,7 +103,7 @@ Used to remove a specific row. Again, `WHERE` is crucial!
 sqlite> DELETE FROM sheet1 WHERE ID = 10;
 ```
 
-## 3. Filtering Data (`WHERE` & More) 
+## 5. Filtering Data (`WHERE` & More) 
 You rarely want to see all the data. You want specific filters.
 
 `WHERE`: Filters results based on a condition.
@@ -120,7 +130,7 @@ sqlite> SELECT * FROM sheet1 ORDER BY Age DESC;
 # Returns the table sorted from oldest to youngest!
 ```
 
-## 4. Aggregate Functions (Math on the Fly!) 
+## 6. Aggregate Functions (Math on the Fly!) 
 SQL can do math across thousands of rows instantly without needing a Python loop!
 
 `COUNT`: Counts the number of rows.
