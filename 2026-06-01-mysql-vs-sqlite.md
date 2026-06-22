@@ -1,6 +1,6 @@
 # Database Engines: MySQL vs. SQLite
 
-**Date:** 2026-06-04
+**Date:** 2026-06-01
 **Category:** Databases / Architecture
 **Tags:** #SQL #Databases #MySQL #SQLite #Backend #Architecture
 
