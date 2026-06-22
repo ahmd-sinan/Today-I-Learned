@@ -90,7 +90,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-05-27] **SQLite3 & SQL Fundamentals: Terminal Commands & CRUD Operations** [CS50x]
 * [2026-05-29] **Linux Boot Process** [LFS101]
 * [2026-05-30] **Linux Services: Mastering systemctl** [LFS101]
-* [2026-06-01] **SQL Architecture: Data Types & Constraints** [CS50x]
+* [2026-06-01] **SQL Data Types & Constraints** [CS50x]
 * [2026-06-02] **SQL Strings: CHAR vs VARCHAR** [CS50x]
 * [2026-06-02] **SQL: Primary & Foreign Keys** [CS50x]
 * [2026-06-05] **Connecting Python to SQL** [CS50x]
