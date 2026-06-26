@@ -12,7 +12,7 @@ The **Filesystem Hierarchy Standard (FHS)** is the universal, industry-wide spec
 * **The Big Benefit (Predictability):** Because of the FHS, if you learn how to locate configuration files on an Ubuntu system, you will automatically know where they are on Fedora, Debian, or Arch.
 * **Current Specification:** FHS 3.0 (maintained by FreeDesktop.org).
 
-## 2. The Master Root Directory Cheat Sheet 🗂️
+## 2. The Master Root Directory Cheat Sheet 
 Here is the complete breakdown of the top-level directories under the Root (`/`), including what they do, real-world examples, and their Windows equivalents.
 
 | Directory | What it is (Technical Function) | Industry Examples | Windows Equivalent 🪟 |
@@ -32,15 +32,15 @@ Here is the complete breakdown of the top-level directories under the Root (`/`)
 | **`/boot`** | The crucial, static files required by the Boot Loader to start the operating system (Kernel, initramfs). | `/boot/grub/grub.cfg` | Boot Manager |
 | **`/run`** | Ephemeral runtime data (Process IDs, lock files) generated since the system was last booted. | `/run/systemd/` | *None* |
 
-## 3. The Core Architectural Split: `/` vs `/usr` ✂️
+## 3. The Core Architectural Split: `/` vs `/usr` 
 Historically, Unix systems physically separated the bare essentials from general software due to the storage limitations of early hard drives.
 
-* **The Root Level (`/`): The Emergency Kit 🧰**
+* **The Root Level (`/`): The Emergency Kit **
     Directories immediately under the root (like `/bin` or `/sbin`) traditionally contained only the absolute minimum utilities required to boot the machine or execute basic emergency repairs.
 * **The `/usr` Level: The Main Software Hub 💻**
     Standing for "Unix System Resources," this contains the massive collection of general programs, libraries, and tools that make up the fully functioning, daily operating system. 
 
-### The Modern Plot Twist (The "usrMerge") 🤯
+### The Modern Plot Twist (The "usrMerge") 
 Because modern storage is massive, physically separating minimal boot tools from the rest of the OS is obsolete. Today, major distributions (Fedora, Arch, Ubuntu) use the **usrMerge**. On a modern system, the root directories (`/bin`, `/sbin`, `/lib`) are actually just **symbolic links (shortcuts)** pointing directly into their `/usr` counterparts (`/usr/bin`, `/usr/sbin`). They are logically the exact same place!
 
 ## 4. The `/usr` Hierarchy 
@@ -50,10 +50,10 @@ When installing general software, it routes into the `/usr` structure:
 * **`/usr/share`:** Architecture-independent data (e.g., `man` pages, icons, dictionaries).
 * **`/usr/local`:** The DIY Directory! If you manually compile software from source code instead of using a package manager like `apt`, it installs here (specifically `/usr/local/bin`) so it doesn't conflict with official system updates.
 
-## 5. Removable Media (Mounting under FHS) 🔌
+## 5. Removable Media (Mounting under FHS) 
 Because "Everything is a file or a directory" in Linux, plugging in external media does not generate a new drive letter (`E:` or `F:`). The OS logically attaches it to the existing tree.
 
 * **Traditional Mounts:** System admins manually mount static drives to the `/mnt` directory.
 * **Automated Mounts:** Modern Desktop Environments automatically mount USBs dynamically to: 
-    👉 `/run/media/[username]/[disk_label]`
+    `/run/media/[username]/[disk_label]`
     * *Example:* If logged in as `student` and you plug in a USB named `BACKUP`, the OS automatically exposes all those files inside the `/run/media/student/BACKUP/` folder!
