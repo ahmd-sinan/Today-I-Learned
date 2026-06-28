@@ -6,7 +6,7 @@
 
 Today I studied the complete structural blueprint of the Linux Operating System. To effectively manage and troubleshoot a Linux server, a developer must understand the standardized rules that dictate exactly where software, hardware files, and data reside.
 
-## 1. What is the FHS? (Filesystem Hierarchy Standard) 📐
+## 1. What is the FHS? (Filesystem Hierarchy Standard) 
 The **Filesystem Hierarchy Standard (FHS)** is the universal, industry-wide specification that defines the directory structure in Linux distributions. 
 
 * **The Big Benefit (Predictability):** Because of the FHS, if you learn how to locate configuration files on an Ubuntu system, you will automatically know where they are on Fedora, Debian, or Arch.
