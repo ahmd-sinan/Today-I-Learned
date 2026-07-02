@@ -102,6 +102,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-06-26] **Linux Filesystem Hierarchy Standard (FHS) & Directory Structure** [LFS101]
 * [2026-06-28] **Linux GUI Architecture: Desktop Environments & Display Servers** [LFS101]
 * [2026-07-01] **Internet Primer: IP, DNS, and TCP/IP Architecture** [CS50x]
+* [2026-07-02] **Intro to Cloud Architecture: AWS Global Infrastructure, EC2 & Storage** 
 * *(More coming soon...)*
 
 ---
