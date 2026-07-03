@@ -49,7 +49,7 @@ Today I leveled up my AWS Cloud Architecture skills by focusing on enterprise ne
 ## 4. Linux Web Server Deployment (Apache) 
 **The Goal:** Provision an empty Amazon Linux VM into a live, functioning web server strictly via the command-line interface (CLI).
 
-    - Note on Amazon Linux: Amazon Linux is heavily based on Red Hat Enterprise Linux (RHEL), meaning it uses `yum` (or `dnf`) for package management, unlike Ubuntu which uses `apt`
+- Note on Amazon Linux: Amazon Linux is heavily based on Red Hat Enterprise Linux (RHEL), meaning it uses `yum` (or `dnf`) for package management, unlike Ubuntu which uses `apt`
 
 The Deployment Steps:
 
