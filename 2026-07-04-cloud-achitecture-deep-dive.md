@@ -75,6 +75,8 @@ As a self-taught I learned:
 
 * **Cloud Computing:** The abstracted software layer. The virtualization software, application programming interfaces (APIs), automation engines, and dashboard consoles that allow developers to provision, optimize, alter, and delete server specifications remotely across the public internet.
 
+---
+
 ## 2️⃣ How Cloud Gaming Actually Works
 Discovered that platforms like Xbox Cloud Gaming and NVIDIA GeForce Now run entirely on advanced cloud compute architecture:
 * Instead of standard web servers, they use EC2-style machines loaded with massive GPUs.
@@ -87,6 +89,7 @@ Discovered that platforms like Xbox Cloud Gaming and NVIDIA GeForce Now run enti
 ## 3️⃣ Enterprise Cloud Strategies
 Not every company uses AWS. Massive corporations use specific architectural strategies based on their security and scaling needs:
 
+```bash
 +-----------------------------------------------------------------------+
 |                         HYBRID CLOUD MODEL                            |
 |                                                                       |
@@ -98,6 +101,7 @@ Not every company uses AWS. Massive corporations use specific architectural stra
 |               |                                      |                |
 |               +---[ Sudden Traffic Spike / Burst ]---+                |
 +-----------------------------------------------------------------------+
+```
 
 * **Public Cloud:** AWS, Azure, Google Cloud (GCP), and Tencent Cloud. Anyone can rent servers here. Huge companies "eat their own dog food" (e.g., Amazon runs Prime Video on AWS; Microsoft runs Xbox Live on Azure).
 * **Private Cloud (On-Premise):** Used by highly secure entities like banks, CERN, or competitors like Walmart. They buy thousands of physical servers for their own buildings but install orchestration software (like **OpenStack**) to give their developers a private dashboard that acts exactly like AWS.
