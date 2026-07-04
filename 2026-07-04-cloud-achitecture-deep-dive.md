@@ -14,23 +14,33 @@ Over the course of two days, I successfully built a multi-server, internet-facin
 *Here are the deployment screenshots from my AWS Management Console and Linux terminal before breaking down the concepts:*
 
 **1. Compute Core: EC2 Provisioning**
+- EC2 Dashboard displaying running nodes
 ![EC2 Dashboard displaying running nodes](assets/aws_workshop_ec2-dashboard.jpg)
+- Linux Server Instance Detail
 ![Linux Server Instance Details](assets/aws_workshop_linux_server.png)
+- Web Host Instance Details
 ![Web Host Instance Details](assets/aws_workshop_webhost.jpg)
+- Windows Server Instance Console
 ![Windows Server Instance Console](assets/aws_workshop_windows_server.png)
+- Windows Virtual Machine RDP Desktop
 ![Windows Virtual Machine RDP Desktop](assets/aws_workshop_windows_vm.jpg)
 
 **2. Storage Engineering: Formatting EBS via SSH**
+- Git Bash SSH session executing lsblk and mkfs.ext4
 ![Git Bash SSH session executing lsblk and mkfs.ext4](assets/aws_workshop_linux_terminal.png)
 
 **3. Web Deployment: Installing Apache**
+- Linux Terminal running yum install httpd
 ![Linux Terminal running yum install httpd](assets/aws_workshop_apache.png)
 
 **4. Object Storage: S3 & Cloud Hosting**
+- S3 Bucket holding index.html and structure.c
 ![S3 Bucket holding index.html and structue.c](assets/aws_workshop_buckets.png)
+- Custom JSON bucket policy for public access
 ![Custom JSON bucket policy for public access](assets/aws_workshop_json.png)
 
 **5. Security: Identity and Access Management**
+- IAM User Creation and Management
 ![IAM User Creation and Management](assets/aws_workshop_iam.png)
 
 ---
@@ -94,3 +104,32 @@ Not every company uses AWS. Massive corporations use specific architectural stra
 * **Multi-Cloud:** Renting from multiple public clouds simultaneously. (e.g., Apple uses AWS *and* GCP for iCloud). This prevents total downtime if one cloud provider crashes and forces Amazon and Google to compete on pricing.
 * **Hybrid Cloud (The "Bursting" Trick):** A company runs their daily operations on their own Private Cloud. But during a massive traffic spike (like a Diwali e-commerce sale), the architecture automatically "bursts" the overflow traffic into temporary AWS public servers. Once the sale ends, the public servers are terminated.
 
+---
+
+## 5️⃣ Visual Proof of Infrastructure (Lab Execution)
+Here are the deployment screenshots from my AWS Management Console and Linux terminal:
+
+### 1. Compute Core: EC2 Provisioning
+*Spinning up the actual virtual machines in the Mumbai ap-south-1 Region.*
+![EC2 Dashboard displaying running nodes](assets/aws_workshop_ec2-dashboard.jpg)
+![Linux Server Instance Details](assets/aws_workshop_linux_server.png)
+![Web Host Instance Details](assets/aws_workshop_webhost.jpg)
+![Windows Server Instance Console](assets/aws_workshop_windows_server.png)
+![Windows Virtual Machine RDP Desktop](assets/aws_workshop_windows_vm.jpg)
+
+### 2. Storage Engineering: Formatting EBS via SSH
+*Securely bypassing Windows key protections to SSH into the Linux kernel, checking block storage (`lsblk`), and formatting the raw EBS drive.*
+![Git Bash SSH session executing lsblk and mkfs.ext4](assets/aws_workshop_linux_terminal.png)
+
+### 3. Web Deployment: Installing Apache
+*Using the Linux package manager to install the web server daemon.*
+![Linux Terminal running yum install httpd](assets/aws_workshop_apache.png)
+
+### 4. Object Storage: S3 & Cloud Hosting
+*Uploading the HTML/C assets and configuring the JSON logic to allow public read access over the internet.*
+![S3 Bucket holding index.html and structue.c](assets/aws_workshop_buckets.png)
+![Custom JSON bucket policy for public access](assets/aws_workshop_json.png)
+
+### 5. Security: Identity and Access Management
+*Applying least-privilege architecture by creating specific IAM users and roles instead of relying on root credentials.*
+![IAM User Creation and Management](assets/aws_workshop_iam.png)
