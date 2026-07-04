@@ -18,8 +18,6 @@ Over the course of two days, I successfully built a multi-server, internet-facin
 ![EC2 Dashboard displaying running nodes](assets/aws_workshop_ec2-dashboard.png)
 - Linux Server Instance Detail
 ![Linux Server Instance Details](assets/aws_workshop_linux_server.png)
-- Web Host Instance Details
-![Web Host Instance Details](assets/aws_workshop_webhost.png)
 - Windows Server Instance Console
 ![Windows Server Instance Console](assets/aws_workshop_windows_server.png)
 - Windows Virtual Machine RDP Desktop
@@ -32,6 +30,8 @@ Over the course of two days, I successfully built a multi-server, internet-facin
 **3. Web Deployment: Installing Apache**
 - Linux Terminal running yum install httpd
 ![Linux Terminal running yum install httpd](assets/aws_workshop_apache.png)
+- Web Host Instance Details
+![Web Host Instance Details](assets/aws_workshop_webhost.png)
 
 **4. Object Storage: S3 & Cloud Hosting**
 - S3 Bucket holding index.html and structure.c
