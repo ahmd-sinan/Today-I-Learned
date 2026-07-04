@@ -14,23 +14,33 @@ Over the course of two days, I successfully built a multi-server, internet-facin
 *Here are the deployment screenshots from my AWS Management Console and Linux terminal before breaking down the concepts:*
 
 **1. Compute Core: EC2 Provisioning**
+- EC2 Dashboard displaying running nodes
 ![EC2 Dashboard displaying running nodes](assets/aws_workshop_ec2-dashboard.jpg)
+- Linux Server Instance Detail
 ![Linux Server Instance Details](assets/aws_workshop_linux_server.png)
+- Web Host Instance Details
 ![Web Host Instance Details](assets/aws_workshop_webhost.jpg)
+- Windows Server Instance Console
 ![Windows Server Instance Console](assets/aws_workshop_windows_server.png)
+- Windows Virtual Machine RDP Desktop
 ![Windows Virtual Machine RDP Desktop](assets/aws_workshop_windows_vm.jpg)
 
 **2. Storage Engineering: Formatting EBS via SSH**
+- Git Bash SSH session executing lsblk and mkfs.ext4
 ![Git Bash SSH session executing lsblk and mkfs.ext4](assets/aws_workshop_linux_terminal.png)
 
 **3. Web Deployment: Installing Apache**
+- Linux Terminal running yum install httpd
 ![Linux Terminal running yum install httpd](assets/aws_workshop_apache.png)
 
 **4. Object Storage: S3 & Cloud Hosting**
+- S3 Bucket holding index.html and structure.c
 ![S3 Bucket holding index.html and structue.c](assets/aws_workshop_buckets.png)
+- Custom JSON bucket policy for public access
 ![Custom JSON bucket policy for public access](assets/aws_workshop_json.png)
 
 **5. Security: Identity and Access Management**
+- IAM User Creation and Management
 ![IAM User Creation and Management](assets/aws_workshop_iam.png)
 
 ---
