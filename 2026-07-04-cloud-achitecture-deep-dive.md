@@ -16,12 +16,12 @@ Over the course of two days, I successfully built a multi-server, internet-facin
 **1. Compute Core: EC2 Provisioning**
 - EC2 Dashboard displaying running nodes
 ![EC2 Dashboard displaying running nodes](assets/aws_workshop_ec2-dashboard.png)
-- Linux Server Instance Detail
-![Linux Server Instance Details](assets/aws_workshop_linux_server.png)
 - Windows Server Instance Console
 ![Windows Server Instance Console](assets/aws_workshop_windows_server.png)
 - Windows Virtual Machine RDP Desktop
 ![Windows Virtual Machine RDP Desktop](assets/aws_workshop_windows_vm.jpg)
+- Linux Server Instance Detail
+![Linux Server Instance Details](assets/aws_workshop_linux_server.png)
 
 **2. Storage Engineering: Formatting EBS via SSH**
 - Git Bash SSH session executing lsblk and mkfs.ext4
