@@ -95,7 +95,7 @@ Not every company uses AWS. Massive corporations use specific architectural stra
 |                                                                       |
 |  +-------------------------+            +--------------------------+  |
 |  |      PRIVATE CLOUD      |            |       PUBLIC CLOUD       |  |
-|  | (On-Premises / OpenStack) |            |   (AWS / Azure / GCP)  |  |
+|  |(On-Premises / OpenStack)|            |   (AWS / Azure / GCP)    |  |
 |  +------------+------------+            +------------+-------------+  |
 |               |                                      ^                |
 |               |                                      |                |
