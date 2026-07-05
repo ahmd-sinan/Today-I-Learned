@@ -9,11 +9,11 @@ Today I learned the complete, end-to-end architecture of how the modern web func
 
 ---
 
-## 1. HTTP (The Communication Protocol) 
+## HTTP (The Communication Protocol) 
 **Hypertext Transfer Protocol (HTTP)** is the standard language used by web browsers (clients) and web servers to communicate. It is fundamentally a massive cycle of **Requests** and **Responses**.
 
 ### The Core Request Methods (Verbs)
-### GET 
+#### GET 
 Used strictly to *request* data. If you search for something on Google, you make a `GET` request. The parameters are visible directly in the URL (e.g., `?q=cats+images`).
 
 * example: `method request-target http-version`
@@ -28,7 +28,7 @@ Accept: text/html
 * **Request-Target:** /search?query=cloud+computing (Notice how the search terms are completely visible right here).
 * **HTTP-Version:** HTTP/1.1
 
-### POST
+#### POST
 Used to *submit* data to the server. If you are logging into a bank or uploading an image, you use `POST`. The data is hidden inside the body of the request, making it much more secure than `GET`.
 
 ```HTTP
@@ -56,7 +56,7 @@ When a server responds, it attaches a 3-digit code to tell the browser what happ
 
 ---
 
-## 2. HTML 
+## HTML 
 **Hypertext Markup Language (HTML)** is not a programming language; it is a markup language. It tells the browser exactly what the content *is* (e.g., "this is a paragraph," "this is an image").
 
 ### The Tree Architecture
@@ -75,7 +75,7 @@ Tags define the element, and attributes provide extra configuration.
 
 ---
 
-## 3. CSS 
+## CSS 
 **Cascading Style Sheets (CSS)** is the design language of the web. It takes the raw, ugly HTML skeleton and adds colors, layouts, animations, and typography.
 
 ### The Syntax (Selectors & Rules)
@@ -100,14 +100,14 @@ Every single HTML element is secretly a rectangular box. CSS controls this box u
 * **Border:** The outline wrapping the content.
 * **Margin:** Empty space outside the border, pushing other elements away.
 
-## 4. JavaScript
+## JavaScript
 JavaScript (JS) is the actual programming language of the web. While languages like C run directly on your computer's OS, JavaScript is executed client-side, meaning it runs directly inside the user's web browser engine (like Chrome's V8 engine).
 
 * **Variables:** JS uses `let` (for data that changes) and `const` (for constants).
 * **Dynamic Typing:** Declaration of data types like `int` or `char` is not required. A variable in JS can hold a number, and then immediately switch to holding a string.
 * **The Power of JS:** It allows asynchronous behavior. Because of JS, you can click a "Like" button on a webpage and send that data to the server without having to refresh your entire browser tab!
 
-## 5. The DOM (Document Object Model) 
+## The DOM (Document Object Model) 
 The DOM is the ultimate bridge that connects your JavaScript to your HTML.
 
 ### What is it?
