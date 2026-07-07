@@ -44,7 +44,7 @@ Historically, a `.deb` file would only work on Ubuntu, and an `.rpm` would only 
 
 
 
-
+```
 +-------------------------------------------------------------------------------------------------+
 | 🐐❤️                                                                                           |
 | Today, 7/7/2026, is the day Cristiano Ronaldo (CR7) officially retired.                         |
