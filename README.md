@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-66-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-67-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -106,6 +106,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-07-03] **AWS Cloud Architecture: EFS, S3 Security, IAM & Web Hosting**
 * [2026-07-04] **AWS & Cloud Architecture Deep Dive**
 * [2026-07-05] **Web Development Architecture: HTTP, HTML, CSS, JS & The DOM** [CS50x]
+* [2026-07-07]**Linux Package Management Architecture & Dependency Resolution** [LFS101]
 * *(More coming soon...)*
 
 ---
