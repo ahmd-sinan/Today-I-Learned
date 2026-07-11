@@ -108,6 +108,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-07-05] **Web Development Architecture: HTTP, HTML, CSS, JS & The DOM** [CS50x]
 * [2026-07-07] **Linux Package Management Architecture & Dependency Resolution** [LFS101]
 * [2026-07-09] **Intro to Python Flask & Templating** [CS50x]
+* [2026-07-11] **Advanced Flask Architecture: POST Requests & Server-Side Validation** [CS50x]
 * *(More coming soon...)*
 
 ---
