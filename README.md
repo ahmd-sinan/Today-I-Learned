@@ -106,7 +106,8 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-07-03] **AWS Cloud Architecture: EFS, S3 Security, IAM & Web Hosting**
 * [2026-07-04] **AWS & Cloud Architecture Deep Dive**
 * [2026-07-05] **Web Development Architecture: HTTP, HTML, CSS, JS & The DOM** [CS50x]
-* [2026-07-07]**Linux Package Management Architecture & Dependency Resolution** [LFS101]
+* [2026-07-07] **Linux Package Management Architecture & Dependency Resolution** [LFS101]
+* [2026-07-09] **Intro to Python Flask & Templating** [CS50x]
 * *(More coming soon...)*
 
 ---
