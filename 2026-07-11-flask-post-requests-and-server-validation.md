@@ -34,6 +34,7 @@ def index():
     # If the user is just visiting the page normally (GET)...
     return render_template("index.html")
 ```
+
 ## Jinja2 Logic: Handling Missing Data 
 When building templates, you cannot assume the user provided valid data. Jinja2 allows you to write conditional logic (`if/else`) directly into the HTML to handle edge cases.
 
@@ -52,6 +53,7 @@ Template (`greet.html`):
 {% endblock %}
 ```
 **Note:** The dash syntax (`{%- if -%}`) can be used to strip out extra whitespace rendered by the template engine, keeping the final HTML clean.
+
 
 ## Server-Side Validation (The Golden Rule of Security) 
 **The Concept:** Never trust user input. Even if you restrict an HTML form (e.g., using a `<select>`` dropdown), a malicious user can easily use "Inspect Element" to modify the HTML and submit fake data. Therefore, you must always validate the data on the server side (in Python) before processing it.
@@ -74,7 +76,9 @@ def register():
     # If validation passes, process the registration
     REGISTRANTS[name] = sport
     return redirect("/registrants")
-``` 
+```
+
+
 ## State Management & The In-Memory Flaw 
 In the example above, user registrations are stored in a simple Python dictionary (`REGISTRANTS = {}`).
 
