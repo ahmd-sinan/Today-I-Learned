@@ -57,7 +57,7 @@ Template (`greet.html`):
 
 ## Server-Side Validation (The Golden Rule of Security)
 
-**The Concept:** Never trust user input. Even if you restrict an HTML form (e.g., using a <select> dropdown), a malicious user can easily use "Inspect Element" to modify the HTML and submit fake data. Therefore, you must always validate the data on the server side (in Python) before processing it.
+**The Concept:** Never trust user input. Even if you restrict an HTML form (e.g., using a dropdown), a malicious user can easily use "Inspect Element" to modify the HTML and submit fake data. Therefore, you must always validate the data on the server side (in Python) before processing it.
 
 ```Python
 SPORTS = ["Basketball", "Soccer", "Ultimate Frisbee"]
