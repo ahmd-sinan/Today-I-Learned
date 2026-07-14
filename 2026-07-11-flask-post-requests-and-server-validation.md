@@ -34,6 +34,7 @@ def index():
     # If the user is just visiting the page normally (GET)...
     return render_template("index.html")
 ```
+
 ## Jinja2 Logic: Handling Missing Data 
 When building templates, you cannot assume the user provided valid data. Jinja2 allows you to write conditional logic (`if/else`) directly into the HTML to handle edge cases.
 
@@ -53,8 +54,10 @@ Template (`greet.html`):
 ```
 **Note:** The dash syntax (`{%- if -%}`) can be used to strip out extra whitespace rendered by the template engine, keeping the final HTML clean.
 
-## Server-Side Validation (The Golden Rule of Security) 
-**The Concept:** Never trust user input. Even if you restrict an HTML form (e.g., using a `<select>`` dropdown), a malicious user can easily use "Inspect Element" to modify the HTML and submit fake data. Therefore, you must always validate the data on the server side (in Python) before processing it.
+
+## Server-Side Validation (The Golden Rule of Security)
+
+**The Concept:** Never trust user input. Even if you restrict an HTML form (e.g., using a dropdown), a malicious user can easily use "Inspect Element" to modify the HTML and submit fake data. Therefore, you must always validate the data on the server side (in Python) before processing it.
 
 ```Python
 SPORTS = ["Basketball", "Soccer", "Ultimate Frisbee"]
@@ -74,12 +77,15 @@ def register():
     # If validation passes, process the registration
     REGISTRANTS[name] = sport
     return redirect("/registrants")
-``` 
+```
+
+
 ## State Management & The In-Memory Flaw 
+
 In the example above, user registrations are stored in a simple Python dictionary (`REGISTRANTS = {}`).
 
-- **The Architectural Flaw:**
+* **The Architectural Flaw:**
 While this works for a quick test, it is entirely "in-memory." If the Flask server process restarts, crashes, or shuts down, the dictionary is wiped clean and all data is permanently lost.
 
-- **The Solution:**
+* **The Solution:**
 To make data persist across server restarts, the backend must be connected to a dedicated, persistent storage solution like a Relational Database (MySQL, PostgreSQL) or a NoSQL Database (MongoDB).
