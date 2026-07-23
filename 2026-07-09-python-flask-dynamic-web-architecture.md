@@ -11,7 +11,7 @@ Today I transitioned from Frontend static design to Backend dynamic architecture
 * **Static Pages (Client-Side):** The HTML file exists perfectly formed on the server. When a browser requests it (e.g., via a basic `http-server`), the server simply hands over the exact file. Everyone who visits the page sees the exact same hardcoded text.
 * **Dynamic Pages (Server-Side):** The HTML does not exist as a complete file. When a user requests a URL, a backend language (like Python) executes code, pulls data from a database, and generates a custom HTML response on-the-fly. This is how Instagram shows *your* specific profile instead of a generic one.
 
-## Introduction to Flask 
+## Flask 
 ![Demo](assets/Flask_logo.png)
 
 Flask is an industry-standard "micro-framework" for Python. It provides the essential tools to build web applications without forcing a massive, complicated structure on the developer (unlike heavier frameworks like Django).
