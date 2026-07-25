@@ -59,7 +59,7 @@ AJAX is typically triggered by DOM Event Listeners. Instead of a traditional sub
 <!-- The "onchange" event fires the AJAX function the moment the user selects a different option -->
 <select onchange="fetch_user_data('/api/employee/' + this.value)">
     <option value="">Select an Employee...</option>
-    <option value="sinan">Abu</option>
+    <option value="sinan">Sinan</option>
     <option value="sarah">Sarah</option>
 </select>
 

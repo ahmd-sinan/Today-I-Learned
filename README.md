@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-70-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-71-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -112,6 +112,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-07-11] **Advanced Flask Architecture: POST Requests & Server-Side Validation** [CS50x]
 * [2026-07-16] **Flask & SQL: Data Persistence and State Management** [CS50x]
 * [2026-07-19] **User Authentication Architecture: MVC, Cookies & Sessions** [CS50x]
+* [2026-07-24] **Asynchronous Web Architecture: AJAX & Background Data Fetching** [CS50x]
 * *(More coming soon...)*
 
 ---
