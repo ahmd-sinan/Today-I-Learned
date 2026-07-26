@@ -32,8 +32,8 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 *   🏗️ **Data Structures:** Linked Lists, Hash Tables, Binary Search Trees, Tries, Stacks & Queues
 *   🐍 **Python:** Core Syntax, Functions, Dictionaries, Error Handling, CLI Tools.
 *   🗄️ **Databases & SQL:** Relational Design (RDBMS), SQLite vs MySQL, Queries, Python-SQL Integration, SQLi
-*   🧠 **Computer Fundamentals:** Hardware, Binary Representation, Memory Architecture, OOP vs POP..
-*   🌐 **Web Development:** Frontend Basics..
+*   🧠 **Computer Fundamentals:** Hardware, Binary Representation, Memory Architecture, OOP vs POP
+*   🌐 **Web Development:** Frontend Basics.
 
 ---
 
