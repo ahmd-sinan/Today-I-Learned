@@ -1,6 +1,7 @@
 # Client-Server Architecture: Flask Backend vs. JavaScript Frontend 
 
 **Date:** 2026-07-25
+
 **Category:** Web Development / Software Architecture
 **Tags:** #Architecture #Flask #JavaScript #Backend #Frontend #DOM
 
