@@ -9,7 +9,7 @@
 <br />
 
 # 📝 TIL (Today I Learned)
-> "Daily consistency beats intensity."nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+> "Daily consistency beats intensity."
 
 Welcome to my **Today I Learned** repository! This is an open-source collection of concise write-ups on small things I learn day-to-day as my journey as a **Self-Taught Developer**
 
