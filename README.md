@@ -4,7 +4,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://img.shields.io/github/last-commit/ahmd-sinan/Today-I-Learned?style=flat&label=Last%20Learned&color=green" alt="Last Learned" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Total%20Learnings-73-blue?style=flat" alt="Total Learnings" />
+  <img src="https://img.shields.io/badge/Total%20Learnings-74-blue?style=flat" alt="Total Learnings" />
 </div>
 <br />
 
@@ -115,6 +115,7 @@ I keep a flat directory structure for simplicity. Files are named using the `YYY
 * [2026-07-24] **Asynchronous Web Architecture: AJAX & Background Data Fetching** [CS50x]
 * [2026-07-25] **Flask Backend vs. JavaScript Frontend**
 * [2026-07-29] **Desktop GUI Architecture: Introduction to Python Tkinter**
+* [2026-08-04] **System Telemetry & Hardware Profiling: psutil and cpuinfo**
 * *(More coming soon...)*
 
 ---
