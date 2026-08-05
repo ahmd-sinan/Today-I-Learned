@@ -7,7 +7,7 @@
 
 Today I explored Python's powerful built-in standard libraries designed for interacting directly with the operating system kernel, querying system environments, and managing low-level network and process operations.
 
-## 1. The `platform` Library (System Identification) 
+## The `platform` Library (System Identification) 
 **What it is:** A built-in module used to retrieve detailed, cross-platform metadata about the underlying operating system, hardware architecture, and Python interpreter version.
 
 **Industry Context:** 
@@ -30,7 +30,7 @@ print(f"Processor: {platform.processor()}")
 print(f"Python Version: {platform.python_version()}")
 ```
 
-## 2. The `socket` Library (Network Communication) 
+## The `socket` Library (Network Communication) 
 **What it is:** Python’s raw interface to the operating system's networking stack. It allows you to implement low-level network communications using Berkeley sockets (TCP/UDP protocols).
 
 **Industry Context:**
@@ -57,7 +57,7 @@ else:
 s.close()
 ```
 
-## 3. The `subprocess` Library (Process Management) 
+## The `subprocess` Library (Process Management) 
 **What it is:** A powerful module that allows your Python script to spawn new OS processes, connect to their input/output/error pipes, and obtain their return codes. It completely replaces older, unsafe methods like `os.system()`.
 
 **Industry Context:**
