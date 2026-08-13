@@ -7,6 +7,7 @@
 Today I learned the foundational mechanics of the Linux Command Line Interface (CLI). I explored the bridge between Graphical User Interfaces (GUIs) and the raw shell, and broke down the exact anatomical structure of how Linux commands are executed.
 
 ## The Terminal Emulator (The GUI Bridge) 
+![Terminal](assets/linux-terminals.png)
 **What it is:** A "Terminal Emulator" is not the shell itself; it is simply a graphical program (a window) that runs on your desktop environment. It simulates a pure, text-only console, allowing you to interact with the underlying shell (like Bash or Zsh) without leaving your GUI.
 
 *   **Industry Context:** When managing remote AWS or Azure servers, the server rarely has a GUI installed to save RAM. You use your local terminal emulator to open a secure connection (SSH) to that headless server.
