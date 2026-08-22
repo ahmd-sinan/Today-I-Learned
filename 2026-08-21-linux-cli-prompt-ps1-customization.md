@@ -4,12 +4,12 @@
 
 Today I learned how to customize the Linux Command Line Prompt by modifying the `PS1` environment variable. I explored the syntax behind prompt generation and why visual cues are critical for preventing catastrophic errors when managing multiple remote servers.
 
-## 1. The `PS1` Environment Variable 
+## The `PS1` Environment Variable 
 When you open a terminal, the text on the left side waiting for you to type is called the Prompt. 
 *   **What it is:** The system variable that controls the primary appearance of this prompt is called `PS1` (Prompt String 1). It is an Environment Variable loaded into the shell's memory the moment you log in.
 *   **Industry Context:** If a DevOps engineer is managing three different production servers and their local laptop simultaneously, jumping between identical black terminal windows is dangerous. Customizing `PS1` keeps you grounded, ensuring you always know exactly *who* you are logged in as and *which* machine you are commanding.
 
-## 2. Breaking Down the Syntax 
+## Breaking Down the Syntax 
 To change the prompt, you simply redefine the variable in your terminal using specific escape characters (which always start with a backslash `\`).
 
 If you run the command: `$ PS1="\u@\h \$ "`
@@ -25,7 +25,7 @@ The `\$` symbol is an architectural safety feature in Linux:
 *   If you are logged in as a standard, restricted user, it prints a **Dollar Sign (`$`)**.
 *   If you switch to the `root` (superuser) account, it automatically detects your elevated status and changes the symbol to a **Pound/Hash Sign (`#`)**. This is a glaring visual warning that you currently have dangerous, system-altering privileges, and any command you type could potentially destroy the operating system!
 
-## 3. Temporary vs. Permanent Customization 
+## Temporary vs. Permanent Customization 
 By default, typing `PS1="..."` into the terminal only changes the prompt temporarily. The second you close that window, the variable is erased from memory.
 
 *   **Making it Permanent:** To keep your custom prompt forever, you must append the `PS1` variable definition to the absolute bottom of your user's hidden bash configuration file.

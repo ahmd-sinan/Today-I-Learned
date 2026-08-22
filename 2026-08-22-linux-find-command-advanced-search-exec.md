@@ -4,7 +4,7 @@
 
 Today I learned how to use the `find` command, the ultimate real-time search utility in Linux. Unlike `locate` (which quickly reads a pre-built static database), `find` acts like a detective, recursively crawling through the live filesystem directory by directory. Furthermore, I learned how to use `find` to not only locate files but instantly execute automated actions on them.
 
-## 1. The Basic Filters (Targeting Files) 
+## The Basic Filters (Targeting Files) 
 By default, running `find` with no arguments recursively lists every single file and folder inside your current directory. We use options to surgically narrow the search.
 
 *   **`-name`:** Searches for an exact, case-sensitive filename match.
@@ -20,7 +20,7 @@ By default, running `find` with no arguments recursively lists every single file
 $ find /usr -type d -name gcc
 ```
 
-## 2. Advanced Automation: Executing Commands (-exec) 
+## Advanced Automation: Executing Commands (-exec) 
 This is the true superpower of find. Instead of just generating a list of files, you can pipe those results directly into another command on-the-fly.
 
 ### The Syntax Breakdown: `$ find -name "*.swp" -exec rm {} ';'`
@@ -35,7 +35,7 @@ Using `-exec rm` is highly dangerous. If you make a typo in your search string, 
 
 * **The Fix:** Replace `-exec` with `-ok`. It does the exact same thing, but it pauses the terminal and forces you to type `y` or `n` to confirm the action on every single file before executing the command.
 
-## 3. Telemetry Filtering (Searching by Time and Size) 
+## Telemetry Filtering (Searching by Time and Size) 
 System administrators use these flags daily to clean up bloated servers (e.g., automatically deleting massive crash reports or rotating old server logs).
 
 ### Searching by Time (Days)
@@ -59,6 +59,6 @@ System administrators use these flags daily to clean up bloated servers (e.g., a
 $ find / -size +10M -exec mv {} /backup/ ';'
 ```
 
-## 4. Depth Control & Detailed Output 
+## Depth Control & Detailed Output 
 * `-maxdepth 1`: Normally, `find` drills all the way down to the absolute bottom of the directory tree. This flag forces it to only scan the current directory and prevents it from entering any sub-folders.
 * `-ls`: Adding this flag to the end of a `find` command transforms the output. Instead of just printing the raw file path, it prints the full permission block, owner, group, and exact byte size (mimicking the output of a standard `ls -l` command).
